@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patiwat Meekaeo — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --ok: #16a34a;
+      --shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.03);
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Inter', 'Noto Sans Thai', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px; line-height: 1.6; -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 48px 24px 80px; }
+    .top-bar { position: sticky; top: 16px; z-index: 10; display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 24px; }
+    .admin-link { background: var(--surface); border: 1px solid var(--border); color: var(--muted); padding: 6px 14px; border-radius: 999px; font-size: 13px; text-decoration: none; transition: all 0.2s; }
+    .admin-link:hover { color: var(--text); border-color: var(--text); }
+    .lang-switcher { display: flex; gap: 6px; }
+    .lang-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 500; cursor: pointer; transition: all 0.2s ease; font-family: inherit; }
+    .lang-btn:hover { color: var(--text); border-color: var(--text); }
+    .lang-btn.active { background: var(--text); color: var(--surface); border-color: var(--text); }
+    header { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 36px 36px 32px; box-shadow: var(--shadow); margin-bottom: 20px; }
+    .name { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 6px; }
+    .title-text { font-size: 16px; color: var(--accent); font-weight: 500; margin-bottom: 18px; }
+    .contact { display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: var(--muted); }
+    .contact a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact a:hover { color: var(--accent); }
+    .contact span { display: inline-flex; align-items: center; gap: 6px; }
+    section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 36px; box-shadow: var(--shadow); margin-bottom: 16px; }
+    h2 { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 18px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+    .summary { font-size: 15px; color: #374151; }
+    .item { margin-bottom: 22px; }
+    .item:last-child { margin-bottom: 0; }
+    .item-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px; margin-bottom: 4px; }
+    .item-title { font-size: 16px; font-weight: 600; color: var(--text); }
+    .item-meta { font-size: 13px; color: var(--muted); font-weight: 500; }
+    .item-org { font-size: 14px; color: var(--accent); margin-bottom: 8px; font-weight: 500; }
+    .item-desc { font-size: 14px; color: #4b5563; }
+
+    /* ========== Rich line renderer (used for bullets + highlight) ========== */
+    .rich { font-size: 14px; color: #4b5563; }
+    .rich-heading { font-weight: 600; color: var(--text); margin-top: 12px; margin-bottom: 4px; }
+    .rich-heading:first-child { margin-top: 0; }
+    .rich-divider { border: 0; border-top: 1px dashed #cbd5e1; margin: 12px 0; }
+    .rich-star { font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .rich-check { padding-left: 22px; position: relative; margin-bottom: 4px; }
+    .rich-check::before { content: '✓'; position: absolute; left: 4px; color: var(--ok); font-weight: 700; }
+    .rich-arrow { padding-left: 22px; position: relative; margin-bottom: 4px; font-weight: 500; color: var(--accent); }
+    .rich-arrow::before { content: '➤'; position: absolute; left: 4px; }
+    .rich-bullet { padding-left: 16px; position: relative; margin-bottom: 3px; }
+    .rich-bullet::before { content: ''; position: absolute; left: 4px; top: 9px; width: 5px; height: 5px; background: var(--muted); border-radius: 50%; }
+    .rich-sub { padding-left: 32px; position: relative; margin-bottom: 3px; font-size: 13px; color: #6b7280; }
+    .rich-sub::before { content: '•'; position: absolute; left: 20px; }
+    .rich-section { font-weight: 600; color: var(--accent); margin-top: 12px; margin-bottom: 6px; }
+    .rich-text { margin-bottom: 4px; }
+
+    .highlight-box {
+      background: var(--accent-soft); border-left: 3px solid var(--accent);
+      padding: 14px 18px; border-radius: 6px; margin-top: 12px;
+    }
+    .highlight-box .highlight-title { font-weight: 700; color: var(--accent); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+    .highlight-box .rich { color: #1e3a8a; }
+    .highlight-box .rich-heading { color: var(--accent); }
+
+    .skills-grid { display: grid; grid-template-columns: 160px 1fr; gap: 10px 20px; align-items: center; }
+    .skill-label { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag { background: var(--accent-soft); color: var(--accent); padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500; }
+    .cert-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+    .cert-item { background: var(--accent-soft); padding: 10px 14px; border-radius: 8px; font-size: 13px; color: #1e3a8a; transition: all 0.15s; }
+    .cert-item.clickable { cursor: pointer; }
+    .cert-item.clickable:hover { background: #dbeafe; transform: translateY(-1px); box-shadow: 0 2px 8px rgba(37,99,235,0.15); }
+    .cert-item .cert-name { font-weight: 600; display: flex; align-items: center; gap: 6px; }
+    .cert-item .cert-org { color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .cert-badge { background: var(--accent); color: #fff; padding: 1px 6px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+
+    /* Modal for cert preview */
+    .preview-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; display: none; align-items: center; justify-content: center; padding: 20px; }
+    .preview-modal.open { display: flex; }
+    .preview-content { position: relative; max-width: 95vw; max-height: 95vh; display: flex; flex-direction: column; }
+    .preview-close { position: absolute; top: -42px; right: 0; background: rgba(255,255,255,0.2); border: 0; color: #fff; width: 36px; height: 36px; border-radius: 50%; font-size: 22px; cursor: pointer; backdrop-filter: blur(8px); }
+    .preview-close:hover { background: rgba(255,255,255,0.3); }
+    .preview-content img { max-width: 95vw; max-height: 90vh; object-fit: contain; border-radius: 8px; background: #fff; }
+    .preview-content iframe { width: 90vw; height: 90vh; border: 0; border-radius: 8px; background: #fff; }
+    .preview-caption { color: #fff; text-align: center; margin-top: 12px; font-size: 13px; opacity: 0.9; }
+    .preview-actions { text-align: center; margin-top: 8px; }
+    .preview-actions a { color: #93c5fd; text-decoration: none; font-size: 13px; padding: 4px 10px; }
+    .preview-actions a:hover { text-decoration: underline; }
+    footer { text-align: center; margin-top: 32px; font-size: 12px; color: var(--muted); }
+    .fade-in { animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    .loading { text-align: center; padding: 80px 20px; color: var(--muted); }
+    @media (max-width: 640px) {
+      .container { padding: 24px 16px 60px; }
+      header, section { padding: 24px 20px; }
+      .name { font-size: 24px; }
+      .skills-grid { grid-template-columns: 1fr; gap: 4px; }
+      .skill-label { margin-top: 8px; }
+    }
+    @media print {
+      .top-bar { display: none; }
+      body { background: white; }
+      header, section { box-shadow: none; border-color: #ddd; page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <a href="admin/" class="admin-link">⚙️ Admin</a>
+      <div class="lang-switcher" role="group" aria-label="Language selector">
+        <button class="lang-btn active" data-lang="th">ไทย</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="zh">中文</button>
+      </div>
+    </div>
+    <div id="app"><div class="loading">Loading…</div></div>
+  </div>
+
+  <!-- Cert Preview Modal -->
+  <div class="preview-modal" id="previewModal" onclick="closePreview(event)">
+    <div class="preview-content" id="previewContent" onclick="event.stopPropagation()">
+      <button class="preview-close" onclick="closePreview()">×</button>
+      <div id="previewBody"></div>
+      <div class="preview-caption" id="previewCaption"></div>
+      <div class="preview-actions" id="previewActions"></div>
+    </div>
+  </div>
+
+  <script>
+    let DATA = null;
+    let CURRENT_LANG = 'th';
+
+    async function loadData() {
+      const res = await fetch('resume-data.json?t=' + Date.now());
+      DATA = await res.json();
+    }
+
+    function t(obj) { return obj.translations[CURRENT_LANG] || obj.translations.th; }
+
+    function escapeHtml(s) {
+      if (s == null) return '';
+      return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[c]));
+    }
+    function escapeAttr(s) {
+      if (s == null) return '';
+      return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;' }[c]));
+    }
+
+    // ===== Certificate preview modal =====
+    function previewCert(filePath, certName) {
+      const ext = filePath.split('.').pop().toLowerCase();
+      const body = document.getElementById('previewBody');
+      const caption = document.getElementById('previewCaption');
+      const actions = document.getElementById('previewActions');
+
+      if (['jpg','jpeg','png','webp'].includes(ext)) {
+        body.innerHTML = `<img src="${filePath}" alt="${escapeAttr(certName)}" />`;
+      } else if (ext === 'pdf') {
+        body.innerHTML = `<iframe src="${filePath}#view=FitH" title="${escapeAttr(certName)}"></iframe>`;
+      } else {
+        body.innerHTML = `<div style="background:#fff;padding:40px;border-radius:8px;text-align:center;">ไม่รองรับไฟล์ประเภทนี้</div>`;
+      }
+      caption.textContent = certName;
+      actions.innerHTML = `<a href="${filePath}" target="_blank" download>⬇️ ดาวน์โหลด</a> · <a href="${filePath}" target="_blank">เปิดในแท็บใหม่</a>`;
+      document.getElementById('previewModal').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closePreview(e) {
+      if (e && e.target.id !== 'previewModal' && e.type !== undefined) return;
+      document.getElementById('previewModal').classList.remove('open');
+      document.getElementById('previewBody').innerHTML = '';
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closePreview(); });
+
+    // ===== Rich line renderer — supports ✓, ➤, ━, 🔹, ★, •, -, numbered headings =====
+    function renderRichLine(raw) {
+      const line = (raw || '').trim();
+      if (!line) return '';
+
+      // Divider line: ━━━ / ───── / ===
+      if (/^[━─=]{3,}$/.test(line)) return '<hr class="rich-divider" />';
+
+      // Section with 🔹 or 🟦 or ◆
+      if (/^[🔹🔸◆◇►▪]/u.test(line)) {
+        const text = line.replace(/^[🔹🔸◆◇►▪]\s*/u, '');
+        return `<div class="rich-section">${escapeHtml(text)}</div>`;
+      }
+
+      // Star headline ★
+      if (/^★/.test(line)) {
+        return `<div class="rich-star">★ ${escapeHtml(line.replace(/^★\s*/, ''))}</div>`;
+      }
+
+      // Check item ✓ ✔
+      if (/^[✓✔]/.test(line)) {
+        return `<div class="rich-check">${escapeHtml(line.replace(/^[✓✔]\s*/, ''))}</div>`;
+      }
+
+      // Arrow/result ➤ ► ▶ →
+      if (/^[➤►▶]/.test(line)) {
+        return `<div class="rich-arrow">${escapeHtml(line.replace(/^[➤►▶]\s*/, ''))}</div>`;
+      }
+
+      // Numbered heading: "1. Title"
+      if (/^\d+\.\s/.test(line)) {
+        return `<div class="rich-heading">${escapeHtml(line)}</div>`;
+      }
+
+      // Sub-bullet (smaller indent): starts with "• " or "○ "
+      if (/^[•○]\s/.test(line)) {
+        return `<div class="rich-sub">${escapeHtml(line.replace(/^[•○]\s*/, ''))}</div>`;
+      }
+
+      // Regular bullet: starts with "- " or "* " or "– "
+      if (/^[-*–]\s/.test(line)) {
+        return `<div class="rich-bullet">${escapeHtml(line.replace(/^[-*–]\s*/, ''))}</div>`;
+      }
+
+      // Default: plain text (treat as bullet for consistency in bullets array)
+      return `<div class="rich-bullet">${escapeHtml(line)}</div>`;
+    }
+
+    function renderRichLines(items) {
+      // items can be: array of strings (bullets) OR a single string with newlines (highlight)
+      const rawLines = Array.isArray(items)
+        ? items
+        : String(items || '').split('\n');
+
+      // Pre-process: auto-split lines that contain multiple "N. " or "✓ " patterns
+      // (handles cases where user pastes "1. X 2. Y 3. Z" as one long line)
+      const processed = [];
+      for (const raw of rawLines) {
+        const line = (raw || '').trim();
+        if (!line) continue;
+
+        // Count numbered items "N. " (need >= 2 to trigger split)
+        const numMatches = line.match(/(?:^|\s)\d+\.\s/g) || [];
+        if (numMatches.length >= 2) {
+          // Split at each "N. " boundary (keep the number prefix)
+          const parts = line.split(/(?=\s\d+\.\s)/);
+          parts.forEach(p => { const t = p.trim(); if (t) processed.push(t); });
+          continue;
+        }
+
+        // Count check items "✓ " (need >= 2)
+        const checkMatches = line.match(/(?:^|\s)[✓✔]\s/g) || [];
+        if (checkMatches.length >= 2) {
+          const parts = line.split(/(?=\s[✓✔]\s)/);
+          parts.forEach(p => { const t = p.trim(); if (t) processed.push(t); });
+          continue;
+        }
+
+        // Arrow ➤ patterns (>= 2)
+        const arrMatches = line.match(/(?:^|\s)[➤►▶]\s/g) || [];
+        if (arrMatches.length >= 2) {
+          const parts = line.split(/(?=\s[➤►▶]\s)/);
+          parts.forEach(p => { const t = p.trim(); if (t) processed.push(t); });
+          continue;
+        }
+
+        processed.push(line);
+      }
+
+      return '<div class="rich">' + processed.map(renderRichLine).join('') + '</div>';
+    }
+
+    function render() {
+      const p = t(DATA.personal);
+      const L = DATA.labels[CURRENT_LANG] || DATA.labels.th;
+
+      const html = `
+        <header class="fade-in">
+          <div class="name">${escapeHtml(p.name)}</div>
+          <div class="title-text">${escapeHtml(p.title)}</div>
+          <div class="contact">
+            <span>📧 <a href="mailto:${escapeHtml(DATA.personal.email)}">${escapeHtml(DATA.personal.email)}</a></span>
+            <span>📱 <a href="tel:${escapeHtml(DATA.personal.phone)}">${escapeHtml(DATA.personal.phone)}</a></span>
+            <span>📍 ${escapeHtml(p.location)}</span>
+            <span>🎂 ${escapeHtml(p.dob)}</span>
+          </div>
+        </header>
+
+        <section class="fade-in">
+          <h2>${escapeHtml(L.summaryTitle)}</h2>
+          <p class="summary">${escapeHtml(p.summary)}</p>
+        </section>
+
+        <section class="fade-in">
+          <h2>${escapeHtml(L.experienceTitle)}</h2>
+          ${DATA.experience.map(item => {
+            const it = t(item);
+            return `
+              <div class="item">
+                <div class="item-header">
+                  <div class="item-title">${escapeHtml(it.title)}</div>
+                  <div class="item-meta">${escapeHtml(it.meta)}</div>
+                </div>
+                <div class="item-org">${escapeHtml(it.org)}</div>
+                <div class="item-desc">
+                  ${renderRichLines(it.bullets || [])}
+                </div>
+                ${it.highlight ? `
+                  <div class="highlight-box">
+                    <div class="highlight-title">⭐ ${escapeHtml(L.keyResult)}</div>
+                    ${renderRichLines(it.highlight)}
+                  </div>` : ''}
+              </div>`;
+          }).join('')}
+        </section>
+
+        <section class="fade-in">
+          <h2>${escapeHtml(L.educationTitle)}</h2>
+          ${DATA.education.map(item => {
+            const it = t(item);
+            return `
+              <div class="item">
+                <div class="item-header">
+                  <div class="item-title">${escapeHtml(it.title)}</div>
+                  <div class="item-meta">${escapeHtml(it.meta)}</div>
+                </div>
+                <div class="item-org">${escapeHtml(it.org)}</div>
+              </div>`;
+          }).join('')}
+        </section>
+
+        <section class="fade-in">
+          <h2>${escapeHtml(L.skillsTitle)}</h2>
+          <div class="skills-grid">
+            ${DATA.skills.map(s => `
+              <div class="skill-label">${escapeHtml(t(s).label)}</div>
+              <div class="skill-tags">${(s.tags || []).map(tg => `<span class="tag">${escapeHtml(tg)}</span>`).join('')}</div>
+            `).join('')}
+          </div>
+        </section>
+
+        <section class="fade-in">
+          <h2>${escapeHtml(L.certsTitle)}</h2>
+          <div class="cert-list">
+            ${DATA.certs.map(c => {
+              const tc = t(c);
+              const hasFile = !!c.file;
+              return `
+                <div class="cert-item${hasFile?' clickable':''}" ${hasFile?`onclick="previewCert('${escapeAttr(c.file)}','${escapeAttr(tc.name)}')"`:''}>
+                  <div class="cert-name">
+                    ${escapeHtml(tc.name)}
+                    ${hasFile ? '<span class="cert-badge">📎 ดู</span>' : ''}
+                  </div>
+                  <div class="cert-org">${escapeHtml(tc.org)}</div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </section>
+
+        <footer>${escapeHtml(L.footer)}</footer>
+      `;
+      document.getElementById('app').innerHTML = html;
+      document.documentElement.lang = CURRENT_LANG;
+    }
+
+    function applyLang(lang) {
+      CURRENT_LANG = lang;
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+      render();
+      try { localStorage.setItem('resume-lang', lang); } catch (e) {}
+    }
+
+    (async function init() {
+      try { await loadData(); }
+      catch (e) {
+        document.getElementById('app').innerHTML = '<div class="loading">⚠️ ไม่สามารถโหลด resume-data.json ได้</div>';
+        return;
+      }
+      let initLang = 'th';
+      try { const saved = localStorage.getItem('resume-lang'); if (saved && DATA.labels[saved]) initLang = saved; } catch (e) {}
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.addEventListener('click', () => applyLang(btn.dataset.lang)));
+      applyLang(initLang);
+    })();
+  </script>
+</body>
+</html>

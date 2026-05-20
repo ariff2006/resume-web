@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "lastUpdated": "2026-05-20"
+  },
+  "labels": {
+    "th": {
+      "summaryTitle": "เกี่ยวกับฉัน",
+      "experienceTitle": "ประสบการณ์ทำงาน",
+      "educationTitle": "การศึกษา",
+      "skillsTitle": "ทักษะ",
+      "certsTitle": "ใบรับรอง / อบรม",
+      "keyResult": "ผลงานเด่น",
+      "footer": "© 2026 Patiwat Meekaeo — สร้างด้วย HTML + Docker"
+    },
+    "en": {
+      "summaryTitle": "About Me",
+      "experienceTitle": "Experience",
+      "educationTitle": "Education",
+      "skillsTitle": "Skills",
+      "certsTitle": "Certifications & Training",
+      "keyResult": "Key Result",
+      "footer": "© 2026 Patiwat Meekaeo — Built with HTML + Docker"
+    },
+    "zh": {
+      "summaryTitle": "关于我",
+      "experienceTitle": "工作经验",
+      "educationTitle": "教育背景",
+      "skillsTitle": "技能",
+      "certsTitle": "证书与培训",
+      "keyResult": "关键成果",
+      "footer": "© 2026 Patiwat Meekaeo — 使用 HTML + Docker 构建"
+    }
+  },
+  "personal": {
+    "email": "patiwatmeekaeo@gmail.com",
+    "phone": "081-601-9666",
+    "translations": {
+      "th": {
+        "name": "ปฏิวัติ มีแก้ว",
+        "title": "IT Manager (Acting) | Network & Infrastructure Specialist",
+        "location": "กรุงเทพมหานคร, ประเทศไทย",
+        "dob": "11 ม.ค. 2526 (อายุ 43 ปี)",
+        "summary": "ผู้เชี่ยวชาญด้าน IT Infrastructure และ Network Security ที่มีประสบการณ์มากกว่า 9 ปี ในการออกแบบ ติดตั้ง และบริหารระบบเครือข่ายระดับองค์กร เชี่ยวชาญด้าน Active Directory, Fortigate Firewall, Microsoft 365, ERP และ Cloud Solutions มีผลงานลดต้นทุน IT มากกว่า 1.1 ล้านบาท/ปี และพัฒนาระบบ Web App ใช้งานในองค์กร 4 ระบบ"
+      },
+      "en": {
+        "name": "Patiwat Meekaeo",
+        "title": "IT Manager (Acting) | Network & Infrastructure Specialist",
+        "location": "Bangkok, Thailand",
+        "dob": "Born Jan 11, 1983 (Age 43)",
+        "summary": "IT Infrastructure and Network Security specialist with over 9 years of experience designing, deploying, and managing enterprise network systems. Skilled in Active Directory, Fortigate Firewall, Microsoft 365, ERP, and Cloud Solutions. Delivered IT cost savings of over 1.1M THB/year and developed 4 in-house web applications."
+      },
+      "zh": {
+        "name": "巴蒂瓦特 米格欧",
+        "title": "IT 经理(代理)| 网络与基础设施专家",
+        "location": "泰国曼谷",
+        "dob": "1983年1月11日生(43岁)",
+        "summary": "拥有 9 年以上经验的 IT 基础设施和网络安全专家,擅长设计、部署和管理企业级网络系统。精通 Active Directory、Fortigate 防火墙、Microsoft 365、ERP 和云解决方案。已实现每年超过 110 万泰铢的 IT 成本节省,并开发了 4 个内部 Web 应用程序。"
+      }
+    }
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "translations": {
+        "th": {
+          "title": "IT Manager (Acting)",
+          "org": "S.MEC Engineering Co., Ltd.",
+          "meta": "พ.ย. 2566 – ปัจจุบัน",
+          "bullets": [
+            "วางแผนและบริหารงบประมาณ IT รายปี (Capex & Opex) สำหรับองค์กรขนาด 160 ผู้ใช้",
+            "วาง Infrastructure HQ ใหม่จาก 0 — AD, VLAN, Switch, Omada APs 8 ตัว, Dual ISP Load Balancing (99% Uptime)",
+            "ติดตั้งและบริหาร Fortigate 100F สำหรับ Policy, VPN, Access Control ครอบคลุม 163 endpoints",
+            "จัดการ Microsoft 365 (Users, Exchange, Teams, MFA) และ License Software (M365, AutoCAD, Revit, BIM)",
+            "ทำให้ระบบ IT ผ่าน ISO 9001:2015 Audit ทุกปี"
+          ],
+          "highlight": "ลดต้นทุน IT รวม 1,126,000 บาท/ปี ผ่านการเปลี่ยน Vendor (AutoCAD→ZwCAD), Virtualization (VMware→Nutanix), Cloud Server, และ Optimize M365 License"
+        },
+        "en": {
+          "title": "IT Manager (Acting)",
+          "org": "S.MEC Engineering Co., Ltd.",
+          "meta": "Nov 2023 – Present",
+          "bullets": [
+            "Plan and manage annual IT budget (Capex & Opex) for an organization of 160+ users",
+            "Built HQ infrastructure from scratch — AD, VLAN, Switch, 8 Omada APs, Dual ISP Load Balancing (99% Uptime)",
+            "Deployed and managed Fortigate 100F for Policy, VPN, Access Control across 163 endpoints",
+            "Administered Microsoft 365 (Users, Exchange, Teams, MFA) and software licenses (M365, AutoCAD, Revit, BIM)",
+            "Maintained IT systems to pass ISO 9001:2015 audit every year"
+          ],
+          "highlight": "Reduced IT costs by 1,126,000 THB/year through vendor switching (AutoCAD→ZwCAD), virtualization (VMware→Nutanix), Cloud Server migration, and M365 license optimization"
+        },
+        "zh": {
+          "title": "IT 经理(代理)",
+          "org": "S.MEC Engineering 有限公司",
+          "meta": "2023年11月 – 至今",
+          "bullets": [
+            "为 160 多名用户的组织规划和管理年度 IT 预算(资本支出和运营支出)",
+            "从零开始建设总部基础设施 — AD、VLAN、交换机、8 个 Omada AP、双 ISP 负载均衡(99% 正常运行时间)",
+            "部署并管理 Fortigate 100F,覆盖 163 个终端设备的策略、VPN 和访问控制",
+            "管理 Microsoft 365(用户、Exchange、Teams、MFA)和软件许可证(M365、AutoCAD、Revit、BIM)",
+            "维护 IT 系统每年通过 ISO 9001:2015 审核"
+          ],
+          "highlight": "通过更换供应商(AutoCAD→ZwCAD)、虚拟化(VMware→Nutanix)、云服务器迁移和 M365 许可证优化,每年节省 IT 成本 1,126,000 泰铢"
+        }
+      }
+    },
+    {
+      "id": "exp-2",
+      "translations": {
+        "th": {
+          "title": "IT Network Support",
+          "org": "TK-Connecting Co., Ltd.",
+          "meta": "ต.ค. 2564 – ก.พ. 2566",
+          "bullets": [
+            "ออกแบบและติดตั้งระบบเครือข่าย (Network Infrastructure) มากกว่า 10 โครงการ มูลค่าสูงสุด ~800,000 บาท",
+            "ติดตั้งและตั้งค่า Switch, Router, Firewall (Fortigate, Sophos, Zyxel) พร้อม HA Setup",
+            "ออกแบบ VPN Site-to-Site เชื่อมต่อสำนักงานหลายสาขา",
+            "สนับสนุนทีมขายด้วย Solution Diagram และคำปรึกษาเชิงเทคนิค"
+          ],
+          "highlight": ""
+        },
+        "en": {
+          "title": "IT Network Support",
+          "org": "TK-Connecting Co., Ltd.",
+          "meta": "Oct 2021 – Feb 2023",
+          "bullets": [
+            "Designed and deployed 10+ Network Infrastructure projects, with the largest valued at ~800,000 THB",
+            "Installed and configured Switches, Routers, Firewalls (Fortigate, Sophos, Zyxel) with HA setup",
+            "Designed Site-to-Site VPN connecting multiple branch offices",
+            "Supported the sales team with Solution Diagrams and technical consultation"
+          ],
+          "highlight": ""
+        },
+        "zh": {
+          "title": "IT 网络支持",
+          "org": "TK-Connecting 有限公司",
+          "meta": "2021年10月 – 2023年2月",
+          "bullets": [
+            "设计并部署 10 多个网络基础设施项目,最大项目价值约 800,000 泰铢",
+            "安装和配置交换机、路由器、防火墙(Fortigate、Sophos、Zyxel)及 HA 设置",
+            "设计站点到站点 VPN 连接多个分支机构",
+            "为销售团队提供解决方案图表和技术咨询支持"
+          ],
+          "highlight": ""
+        }
+      }
+    },
+    {
+      "id": "exp-3",
+      "translations": {
+        "th": {
+          "title": "IT Support",
+          "org": "Professional Laboratories Management Corp Pub Co., Ltd.",
+          "meta": "พ.ค. 2563 – ต.ค. 2564",
+          "bullets": [
+            "ย้ายระบบ Hospital Information System (HIS) จาก On-Premise ขึ้น Cloud สำเร็จ",
+            "บริหารจัดการ Active Directory, Group Policy, และ User Access",
+            "ดูแล Cloud HIS-LIS SQL SYMPHONY และ ESET Endpoint Security",
+            "ทำเอกสาร IT Workflow ตามมาตรฐาน ISO 9001:2015"
+          ],
+          "highlight": ""
+        },
+        "en": {
+          "title": "IT Support",
+          "org": "Professional Laboratories Management Corp Pub Co., Ltd.",
+          "meta": "May 2020 – Oct 2021",
+          "bullets": [
+            "Successfully migrated the Hospital Information System (HIS) from On-Premise to Cloud",
+            "Managed Active Directory, Group Policy, and User Access permissions",
+            "Administered Cloud HIS-LIS SQL SYMPHONY and ESET Endpoint Security",
+            "Maintained IT documentation compliant with ISO 9001:2015 standards"
+          ],
+          "highlight": ""
+        },
+        "zh": {
+          "title": "IT 支持",
+          "org": "Professional Laboratories Management Corp 公众有限公司",
+          "meta": "2020年5月 – 2021年10月",
+          "bullets": [
+            "成功将医院信息系统(HIS)从本地迁移到云端",
+            "管理 Active Directory、组策略和用户访问权限",
+            "管理云端 HIS-LIS SQL SYMPHONY 和 ESET 端点安全",
+            "维护符合 ISO 9001:2015 标准的 IT 文档"
+          ],
+          "highlight": ""
+        }
+      }
+    },
+    {
+      "id": "exp-4",
+      "translations": {
+        "th": {
+          "title": "IT Support",
+          "org": "Nanmee Industry Co., Ltd.",
+          "meta": "มี.ค. 2562 – เม.ย. 2563",
+          "bullets": [
+            "ออกแบบและติดตั้งระบบ CCTV 152 ตัว พร้อมวางโครงข่าย Fiber Optic",
+            "จัดการ Windows Server 2012 และ Active Directory",
+            "แก้ปัญหา Hardware/Software/Network และระบบ Oracle ERP"
+          ],
+          "highlight": ""
+        },
+        "en": {
+          "title": "IT Support",
+          "org": "Nanmee Industry Co., Ltd.",
+          "meta": "Mar 2019 – Apr 2020",
+          "bullets": [
+            "Designed and installed 152 CCTV cameras with full Fiber Optic backbone",
+            "Managed Windows Server 2012 and Active Directory infrastructure",
+            "Troubleshot Hardware/Software/Network and Oracle ERP issues"
+          ],
+          "highlight": ""
+        },
+        "zh": {
+          "title": "IT 支持",
+          "org": "Nanmee Industry 有限公司",
+          "meta": "2019年3月 – 2020年4月",
+          "bullets": [
+            "设计并安装 152 个 CCTV 摄像头及完整的光纤主干网",
+            "管理 Windows Server 2012 和 Active Directory 基础设施",
+            "排除硬件/软件/网络和 Oracle ERP 故障"
+          ],
+          "highlight": ""
+        }
+      }
+    },
+    {
+      "id": "exp-5",
+      "translations": {
+        "th": {
+          "title": "IT Support",
+          "org": "Ban Leong Chin Inter Co., Ltd.",
+          "meta": "มี.ค. 2560 – ก.พ. 2562",
+          "bullets": [
+            "ดูแล Server, Active Directory และ User Account Lifecycle",
+            "แก้ปัญหา Hardware, Software, Network, Email และ Oracle ERP",
+            "บริหารจัดการ Data Backup และ Disaster Recovery"
+          ],
+          "highlight": ""
+        },
+        "en": {
+          "title": "IT Support",
+          "org": "Ban Leong Chin Inter Co., Ltd.",
+          "meta": "Mar 2017 – Feb 2019",
+          "bullets": [
+            "Managed Server, Active Directory, and User Account Lifecycle",
+            "Troubleshot Hardware, Software, Network, Email, and Oracle ERP issues",
+            "Managed Data Backup and Disaster Recovery procedures"
+          ],
+          "highlight": ""
+        },
+        "zh": {
+          "title": "IT 支持",
+          "org": "Ban Leong Chin Inter 有限公司",
+          "meta": "2017年3月 – 2019年2月",
+          "bullets": [
+            "管理服务器、Active Directory 和用户账户生命周期",
+            "排除硬件、软件、网络、电子邮件和 Oracle ERP 故障",
+            "管理数据备份和灾难恢复流程"
+          ],
+          "highlight": ""
+        }
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "translations": {
+        "th": {
+          "title": "วิทยาศาสตรบัณฑิต สาขาเทคโนโลยีสารสนเทศและการสื่อสาร",
+          "org": "มหาวิทยาลัยสุโขทัยธรรมาธิราช",
+          "meta": "คาดว่าจบ 2570 | GPA 3.0"
+        },
+        "en": {
+          "title": "B.Sc. in Information and Communications Technology",
+          "org": "Sukhothai Thammathirat Open University",
+          "meta": "Expected 2027 | GPA 3.0"
+        },
+        "zh": {
+          "title": "信息与通信技术理学学士",
+          "org": "素可泰他玛提叻开放大学",
+          "meta": "预计 2027 年毕业 | GPA 3.0"
+        }
+      }
+    },
+    {
+      "id": "edu-2",
+      "translations": {
+        "th": {
+          "title": "ประกาศนียบัตรวิชาชีพ (ปวช.) สาขาเทคโนโลยีระบบเสียง",
+          "org": "วิทยาลัยเทคนิคนางรอง",
+          "meta": "จบ 2545 | GPA 2.25"
+        },
+        "en": {
+          "title": "Vocational Certificate in Sound Technology",
+          "org": "Nang Rong Technical College",
+          "meta": "Graduated 2002 | GPA 2.25"
+        },
+        "zh": {
+          "title": "音响技术职业证书",
+          "org": "南荣技术学院",
+          "meta": "2002年毕业 | GPA 2.25"
+        }
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": "sk-1",
+      "tags": ["Cisco", "Fortigate 100F", "Sophos", "Zyxel", "TP-Link Omada", "Mikrotik"],
+      "translations": { "th": { "label": "Network" }, "en": { "label": "Network" }, "zh": { "label": "网络" } }
+    },
+    {
+      "id": "sk-2",
+      "tags": ["Windows Server", "Active Directory", "GPO", "VMware", "Hyper-V", "Proxmox", "Nutanix"],
+      "translations": { "th": { "label": "Server / OS" }, "en": { "label": "Server / OS" }, "zh": { "label": "服务器/操作系统" } }
+    },
+    {
+      "id": "sk-3",
+      "tags": ["Firewall Policy", "VPN", "MFA", "IPS/IDS", "ESET", "Web Filtering"],
+      "translations": { "th": { "label": "Security" }, "en": { "label": "Security" }, "zh": { "label": "安全" } }
+    },
+    {
+      "id": "sk-4",
+      "tags": ["Microsoft 365", "Exchange", "Teams", "Google Workspace"],
+      "translations": { "th": { "label": "Cloud / SaaS" }, "en": { "label": "Cloud / SaaS" }, "zh": { "label": "云/SaaS" } }
+    },
+    {
+      "id": "sk-5",
+      "tags": ["Mango ERP", "Oracle ERP", "SQL Server", "Sybase"],
+      "translations": { "th": { "label": "ERP / Database" }, "en": { "label": "ERP / Database" }, "zh": { "label": "ERP/数据库" } }
+    },
+    {
+      "id": "sk-6",
+      "tags": ["HTML5", "CSS", "JavaScript", "PHP", "Google Apps Script"],
+      "translations": { "th": { "label": "Web Development" }, "en": { "label": "Web Development" }, "zh": { "label": "Web 开发" } }
+    },
+    {
+      "id": "sk-7",
+      "tags": ["Veeam", "Synology NAS", "Shadow Copy"],
+      "translations": { "th": { "label": "Backup" }, "en": { "label": "Backup" }, "zh": { "label": "备份" } }
+    },
+    {
+      "id": "sk-8",
+      "tags": ["ไทย (Native)", "ลาว (ดี)", "เขมร (ปานกลาง)", "อังกฤษ (เริ่มต้น)"],
+      "translations": { "th": { "label": "ภาษาพูด" }, "en": { "label": "Spoken" }, "zh": { "label": "语言" } }
+    }
+  ],
+  "certs": [
+    { "id": "cert-1", "translations": {
+      "th": { "name": "CCNA — Cisco Certified Network Associate", "org": "Jodoi IT & Service (2565)" },
+      "en": { "name": "CCNA — Cisco Certified Network Associate", "org": "Jodoi IT & Service (2022)" },
+      "zh": { "name": "CCNA — 思科认证网络工程师", "org": "Jodoi IT & Service (2022)" }
+    }},
+    { "id": "cert-2", "translations": {
+      "th": { "name": "NSE 3 Network Security Associate", "org": "Fortinet (2566)" },
+      "en": { "name": "NSE 3 Network Security Associate", "org": "Fortinet (2023)" },
+      "zh": { "name": "NSE 3 网络安全工程师", "org": "Fortinet (2023)" }
+    }},
+    { "id": "cert-3", "translations": {
+      "th": { "name": "NSE 2 Network Security Associate", "org": "Fortinet (2565)" },
+      "en": { "name": "NSE 2 Network Security Associate", "org": "Fortinet (2022)" },
+      "zh": { "name": "NSE 2 网络安全工程师", "org": "Fortinet (2022)" }
+    }},
+    { "id": "cert-4", "translations": {
+      "th": { "name": "NSE 1 Network Security Associate", "org": "Fortinet (2565)" },
+      "en": { "name": "NSE 1 Network Security Associate", "org": "Fortinet (2022)" },
+      "zh": { "name": "NSE 1 网络安全工程师", "org": "Fortinet (2022)" }
+    }},
+    { "id": "cert-5", "translations": {
+      "th": { "name": "Configuring Windows Server 2019 AD", "org": "elife systems (2563)" },
+      "en": { "name": "Configuring Windows Server 2019 AD", "org": "elife systems (2020)" },
+      "zh": { "name": "配置 Windows Server 2019 AD", "org": "elife systems (2020)" }
+    }},
+    { "id": "cert-6", "translations": {
+      "th": { "name": "Fix and Advance Troubleshooting Windows Server AD", "org": "elife systems (2564)" },
+      "en": { "name": "Advanced Troubleshooting Windows Server AD", "org": "elife systems (2021)" },
+      "zh": { "name": "Windows Server AD 高级故障排除", "org": "elife systems (2021)" }
+    }},
+    { "id": "cert-7", "translations": {
+      "th": { "name": "Essential SQL For Everyone", "org": "BORNTODEV (2569)" },
+      "en": { "name": "Essential SQL For Everyone", "org": "BORNTODEV (2026)" },
+      "zh": { "name": "人人都懂 SQL", "org": "BORNTODEV (2026)" }
+    }},
+    { "id": "cert-8", "translations": {
+      "th": { "name": "Python", "org": "Cisco Networking Academy (2569)" },
+      "en": { "name": "Python", "org": "Cisco Networking Academy (2026)" },
+      "zh": { "name": "Python", "org": "思科网络学院 (2026)" }
+    }}
+  ]
+}
