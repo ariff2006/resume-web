@@ -1,829 +1,830 @@
 {
-  "meta": {
-    "lastUpdated": "2026-05-20 06:25:59"
-  },
-  "labels": {
-    "th": {
-      "summaryTitle": "เกี่ยวกับฉัน",
-      "experienceTitle": "ประสบการณ์ทำงาน",
-      "educationTitle": "การศึกษา",
-      "skillsTitle": "ทักษะ",
-      "certsTitle": "ใบรับรอง / อบรม",
-      "keyResult": "ผลงานเด่น",
-      "footer": "© 2026 Patiwat Meekaeo — สร้างด้วย HTML + Docker"
+    "meta": {
+        "lastUpdated": "2026-05-21 06:53:44"
     },
-    "en": {
-      "summaryTitle": "About Me",
-      "experienceTitle": "Experience",
-      "educationTitle": "Education",
-      "skillsTitle": "Skills",
-      "certsTitle": "Certifications & Training",
-      "keyResult": "Key Result",
-      "footer": "© 2026 Patiwat Meekaeo — Built with HTML + Docker"
+    "labels": {
+        "th": {
+            "summaryTitle": "เกี่ยวกับฉัน",
+            "experienceTitle": "ประสบการณ์ทำงาน",
+            "educationTitle": "การศึกษา",
+            "skillsTitle": "ทักษะ",
+            "certsTitle": "ใบรับรอง / อบรม",
+            "keyResult": "ผลงานเด่น",
+            "footer": "© 2026 Patiwat Meekaeo — สร้างด้วย HTML + Docker"
+        },
+        "en": {
+            "summaryTitle": "About Me",
+            "experienceTitle": "Experience",
+            "educationTitle": "Education",
+            "skillsTitle": "Skills",
+            "certsTitle": "Certifications & Training",
+            "keyResult": "Key Result",
+            "footer": "© 2026 Patiwat Meekaeo — Built with HTML + Docker"
+        },
+        "zh": {
+            "summaryTitle": "关于我",
+            "experienceTitle": "工作经验",
+            "educationTitle": "教育背景",
+            "skillsTitle": "技能",
+            "certsTitle": "证书与培训",
+            "keyResult": "关键成果",
+            "footer": "© 2026 Patiwat Meekaeo — 使用 HTML + Docker 构建"
+        }
     },
-    "zh": {
-      "summaryTitle": "关于我",
-      "experienceTitle": "工作经验",
-      "educationTitle": "教育背景",
-      "skillsTitle": "技能",
-      "certsTitle": "证书与培训",
-      "keyResult": "关键成果",
-      "footer": "© 2026 Patiwat Meekaeo — 使用 HTML + Docker 构建"
-    }
-  },
-  "personal": {
-    "email": "patiwatmeekaeo@gmail.com",
-    "phone": "081-601-9666",
-    "translations": {
-      "th": {
-        "name": "ปฏิวัติ มีแก้ว",
-        "title": "IT Manager (Acting) |",
-        "location": "กรุงเทพมหานคร, ประเทศไทย",
-        "dob": "11 ม.ค. 2526 (อายุ 43 ปี)",
-        "summary": "ผู้เชี่ยวชาญด้าน IT Infrastructure และ Network Security ที่มีประสบการณ์มากกว่า 9 ปี ปัจจุบันเป็น IT Manager (Acting) ที่ S.MEC Engineering ดูแลผู้ใช้ 160 คน เชี่ยวชาญด้าน Active Directory, Fortigate Firewall, Microsoft 365, ERP Mango และ Cloud Solutions มีผลงานเด่นคือ ลดต้นทุน IT ได้ 1.13 ล้านบาท/ปี ผ่านการเปลี่ยน Vendor และ Optimize License, วาง Infrastructure HQ ใหม่จาก 0 คนเดียวแบบ End-to-End, ย้ายระบบ ERP จาก Sybase ไป SQL Web สำเร็จใน 1 เดือน และพัฒนา Web App ใช้งานในองค์กรเอง 4 ระบบ (Help Desk, IT Dashboard, Print Cost, ฯลฯ) ผ่าน Certificates: CCNA, NSE 1/2/3, Microsoft Server AD"
-      },
-      "en": {
-        "name": "Patiwat Meekaeo",
-        "title": "IT Manager (Acting) | Network & Infrastructure Specialist",
-        "location": "Bangkok, Thailand",
-        "dob": "Born Jan 11, 1983 (Age 43)",
-        "summary": "IT Infrastructure and Network Security specialist with 9+ years of experience, currently serving as IT Manager (Acting) at S.MEC Engineering, supporting 160 users. Skilled in Active Directory, Fortigate Firewall, Microsoft 365, ERP Mango, and Cloud Solutions. Key accomplishments include reducing IT costs by 1.13M THB/year through vendor optimization and license restructuring, single-handedly building a new HQ Infrastructure end-to-end, successfully migrating ERP from Sybase to SQL Web within 1 month, and developing 4 in-house web applications (Help Desk Ticketing, IT Project Dashboard, Print Cost Dashboard, and more). Certified: CCNA, NSE 1/2/3, Microsoft Server AD."
-      },
-      "zh": {
-        "name": "巴蒂瓦特 米格欧",
-        "title": "IT 经理(代理)| 网络与基础设施专家",
-        "location": "泰国曼谷",
-        "dob": "1983年1月11日生(43岁)",
-        "summary": "拥有 9 年以上经验的 IT 基础设施和网络安全专家,目前担任 S.MEC Engineering 的代理 IT 经理,负责支持 160 名用户。精通 Active Directory、Fortigate 防火墙、Microsoft 365、ERP Mango 和云解决方案。主要成就包括:通过供应商优化和许可证重组,每年降低 IT 成本 113 万泰铢;独自端到端建设新的总部基础设施;在 1 个月内成功将 ERP 从 Sybase 迁移到 SQL Web;并开发了 4 个内部 Web 应用程序(Help Desk 工单、IT 项目仪表板、打印成本仪表板等)。已获认证:CCNA、NSE 1/2/3、Microsoft Server AD。"
-      }
-    }
-  },
-  "experience": [
-    {
-      "id": "exp-1",
-      "translations": {
-        "th": {
-          "title": "IT Manager (Acting)",
-          "org": "S.MEC Engineering Co., Ltd.",
-          "meta": "พ.ย. 2566 – ปัจจุบัน",
-          "bullets": [
-            "1. IT Department Planning & Management",
-            "- Plan annual IT budget (Capex & Opex)",
-            "- Lead IT Support team serving 160 employees",
-            "- Negotiate with vendors/suppliers, compare pricing and specs to select the best value",
-            "- Maintain IT systems to pass ISO 9001:2015 audit every year",
-            "2. Network & Infrastructure",
-            "- Built HQ network from the ground up — AD, VLAN, Switch, and 8 Omada APs",
-            "- Set up Dual ISP with Load Balancing, maintaining 99% Uptime",
-            "- Deployed Fortigate 100F for Policy, VPN, and Access Control",
-            "3. Server & Cloud",
-            "- Manage Active Directory: Domain, OU, GPO, and file permissions",
-            "- Maintain ERP Mango (on UIH Cloud) and Humano HR (on Inet Cloud)",
-            "- Administer Microsoft 365: Users, Exchange, Teams, MFA setup",
-            "- Manage software licenses: M365, AutoCAD, Revit, BIM, SketchUp",
-            "4. Security & Endpoint",
-            "- Manage 163 endpoint devices (158 Notebooks + 5 PCs)",
-            "- Set up CCTV at project sites and Finger Scan integrated with Cloud",
-            "- NAS Backup (Daily/Weekly) with Disaster Recovery plan",
-            "5. In-House Web App Development",
-            "- Help Desk Ticketing System — reduced resolution time by 95%",
-            "- IT Project Dashboard for tracking projects and budgets",
-            "- Print Cost Dashboard analyzing print costs per project",
-            "6. ERP & Database",
-            "- Manage Mango ERP: user management, Workflow setup (PR/PO/WO), staff training",
-            "- SQL Server: write Queries (SELECT, INSERT, UPDATE, DELETE), JOIN, GROUP BY, ORDER BY, WHERE, Backup/Restore, Basic Indexing",
-            "7. Team Leadership",
-            "- Assign tasks, monitor progress, mentor team members",
-            "- Define SLA and KPIs for IT service delivery"
-          ],
-          "highlight": "★ สรุปผลงาน 3 ปี ที่ S.MEC Engineering\r\n✓ ลดต้นทุน IT รวมกว่า 1.1 ล้านบาท/ปี\r\n✓ วาง Infrastructure HQ ใหม่จาก 0 รองรับ 160 User\r\n✓ พัฒนา Web App ใช้เองในองค์กร 4 ระบบ\r\n✓ ย้ายระบบ ERP สำเร็จใน 1 เดือน\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n🔹 ผลงานลดต้นทุน IT — รวม 1,126,000 บาท/ปี\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n1. ลดค่า License CAD ลง 81% ผ่านการเปลี่ยน Vendor\r\n   เปลี่ยน AutoCAD → ZwCAD รวม 70 License\r\n   • AutoCAD LT 63 License: 15,000 → 8,500 บาท/ปี\r\n   • AutoCAD Full 7 License: 60,000 → 8,500 บาท/ปี\r\n   ➤ ประหยัด ~770,000 บาท/ปี\r\n2. ลดค่า Server Virtualization ลง 52%\r\n   เปลี่ยน Platform จาก VMware → Nutanix\r\n   • ค่า Server: 21,000 → 10,000 บาท/เดือน\r\n   ➤ ประหยัด ~132,000 บาท/ปี\r\n3. ย้าย Cloud Server ของ Humano HR ลด Cost 54% สเปคดีขึ้น\r\n   • ค่าบริการ: 19,100 → 8,800 บาท/เดือน\r\n   ➤ ประหยัด ~124,000 บาท/ปี\r\n4. Optimize Microsoft 365 License Structure (160 User)\r\n   ปรับ Mix: Premium 35 → 10, Standard 125 → 150\r\n   • จัด Premium เฉพาะตำแหน่งที่ใช้ Feature จริง\r\n   ➤ ประหยัด ~100,000 บาท/ปี\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n🔹 ผลงานวางระบบและพัฒนา\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n5. วาง IT Infrastructure HQ ใหม่ (Bangbon 5) ทำคนเดียว End-to-End\r\n   ออกแบบ → จัดซื้อ → ติดตั้ง → ส่งมอบ คนเดียวทั้งโปรเจกต์\r\n   • Server AD ครอบคลุม User & Security 160 คน\r\n   • Fortigate 100F คุม Policy, VPN, Access Control\r\n   • TP-Link Omada Switch + AP 8 ตัวครอบคลุมอาคาร\r\n   • Finger Scan 19 ไซต์งานเข้าศูนย์กลาง Real-time ผ่าน ZKT Protocol\r\n6. ERP Mango Migration: Sybase → SQL Web-based (รับเป็น PM)\r\n   ➤ ปิดโปรเจกต์ใน 1 เดือน\r\n   ➤ ระบบเสถียร 100% หลัง Go-Live\r\n   ➤ แก้ปัญหา Bandwidth ที่ค้างมานานหลายปีจนหมด\r\n7. พัฒนา Web App ใช้เองในองค์กร 3 ระบบ\r\n   • Help Desk Ticketing → ลดเวลาแก้ปัญหา 95%\r\n   • IT Project Dashboard → ติดตามงาน + งบประมาณ + Gantt\r\n   • Print Cost Dashboard → รายงานค่าพิมพ์ให้ Executive\r\n   ➤ Stack: Google Apps Script + Google Sheets\r\n8. ติดตั้งระบบ IP Phone เอง (2 lines / 10 extensions)\r\n   ทำเองไม่จ้าง Outsource — ประหยัดค่าติดตั้งและค่าบริการรายเดือน"
+    "personal": {
+        "email": "patiwatmeekaeo@gmail.com",
+        "phone": "081-601-9666",
+        "translations": {
+            "th": {
+                "name": "ปฏิวัติ มีแก้ว",
+                "title": "IT Manager (Acting) |",
+                "location": "กรุงเทพมหานคร, ประเทศไทย",
+                "dob": "11 ม.ค. 2526 (อายุ 43 ปี)",
+                "summary": "ผู้เชี่ยวชาญด้าน IT Infrastructure และ Network Security ที่มีประสบการณ์มากกว่า 9 ปี ปัจจุบันเป็น IT Manager (Acting) ที่ S.MEC Engineering ดูแลผู้ใช้ 160 คน เชี่ยวชาญด้าน Active Directory, Fortigate Firewall, Microsoft 365, ERP Mango และ Cloud Solutions มีผลงานเด่นคือ ลดต้นทุน IT ได้ 1.13 ล้านบาท/ปี ผ่านการเปลี่ยน Vendor และ Optimize License, วาง Infrastructure HQ ใหม่จาก 0 คนเดียวแบบ End-to-End, ย้ายระบบ ERP จาก Sybase ไป SQL Web สำเร็จใน 1 เดือน และพัฒนา Web App ใช้งานในองค์กรเอง 4 ระบบ (Help Desk, IT Dashboard, Print Cost, ฯลฯ) ผ่าน Certificates: CCNA, NSE 1/2/3, Microsoft Server AD"
+            },
+            "en": {
+                "name": "Patiwat Meekaeo",
+                "title": "IT Manager (Acting) | Network & Infrastructure Specialist",
+                "location": "Bangkok, Thailand",
+                "dob": "Born Jan 11, 1983 (Age 43)",
+                "summary": "IT Infrastructure and Network Security specialist with 9+ years of experience, currently serving as IT Manager (Acting) at S.MEC Engineering, supporting 160 users. Skilled in Active Directory, Fortigate Firewall, Microsoft 365, ERP Mango, and Cloud Solutions. Key accomplishments include reducing IT costs by 1.13M THB/year through vendor optimization and license restructuring, single-handedly building a new HQ Infrastructure end-to-end, successfully migrating ERP from Sybase to SQL Web within 1 month, and developing 4 in-house web applications (Help Desk Ticketing, IT Project Dashboard, Print Cost Dashboard, and more). Certified: CCNA, NSE 1/2/3, Microsoft Server AD."
+            },
+            "zh": {
+                "name": "巴蒂瓦特 米格欧",
+                "title": "IT 经理(代理)| 网络与基础设施专家",
+                "location": "泰国曼谷",
+                "dob": "1983年1月11日生(43岁)",
+                "summary": "拥有 9 年以上经验的 IT 基础设施和网络安全专家,目前担任 S.MEC Engineering 的代理 IT 经理,负责支持 160 名用户。精通 Active Directory、Fortigate 防火墙、Microsoft 365、ERP Mango 和云解决方案。主要成就包括:通过供应商优化和许可证重组,每年降低 IT 成本 113 万泰铢;独自端到端建设新的总部基础设施;在 1 个月内成功将 ERP 从 Sybase 迁移到 SQL Web;并开发了 4 个内部 Web 应用程序(Help Desk 工单、IT 项目仪表板、打印成本仪表板等)。已获认证:CCNA、NSE 1/2/3、Microsoft Server AD。"
+            }
         },
-        "en": {
-          "title": "IT Manager (Acting)",
-          "org": "S.MEC Engineering Co., Ltd.",
-          "meta": "Nov 2023 – Present",
-          "bullets": [
-            "1. IT Department Planning & Management",
-            "- Plan annual IT budget (Capex & Opex)",
-            "- Lead IT Support team serving 160 employees",
-            "- Negotiate with vendors/suppliers, compare pricing and specs to select the best value",
-            "- Maintain IT systems to pass ISO 9001:2015 audit every year",
-            "2. Network & Infrastructure",
-            "- Built HQ network from the ground up — AD, VLAN, Switch, and 8 Omada APs",
-            "- Set up Dual ISP with Load Balancing, maintaining 99% Uptime",
-            "- Deployed Fortigate 100F for Policy, VPN, and Access Control",
-            "3. Server & Cloud",
-            "- Manage Active Directory: Domain, OU, GPO, and file permissions",
-            "- Maintain ERP Mango (on UIH Cloud) and Humano HR (on Inet Cloud)",
-            "- Administer Microsoft 365: Users, Exchange, Teams, MFA setup",
-            "- Manage software licenses: M365, AutoCAD, Revit, BIM, SketchUp",
-            "4. Security & Endpoint",
-            "- Manage 163 endpoint devices (158 Notebooks + 5 PCs)",
-            "- Set up CCTV at project sites and Finger Scan integrated with Cloud",
-            "- NAS Backup (Daily/Weekly) with Disaster Recovery plan",
-            "5. In-House Web App Development",
-            "- Help Desk Ticketing System — reduced resolution time by 95%",
-            "- IT Project Dashboard for tracking projects and budgets",
-            "- Print Cost Dashboard analyzing print costs per project",
-            "6. ERP & Database",
-            "- Manage Mango ERP: user management, Workflow setup (PR/PO/WO), staff training",
-            "- SQL Server: write Queries (SELECT, INSERT, UPDATE, DELETE), JOIN, GROUP BY, ORDER BY, WHERE, Backup/Restore, Basic Indexing",
-            "7. Team Leadership",
-            "- Assign tasks, monitor progress, mentor team members",
-            "- Define SLA and KPIs for IT service delivery"
-          ],
-          "highlight": "★ 3-Year Summary at S.MEC Engineering\n✓ Reduced IT costs by over 1.1M THB/year\n✓ Built new HQ Infrastructure from scratch supporting 160 users\n✓ Developed 4 in-house web applications\n✓ Successfully migrated ERP system in 1 month\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 IT Cost Reduction — Total 1,126,000 THB/year\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. Reduced CAD License cost by 81% through vendor change\n   Switched AutoCAD → ZwCAD across 70 licenses\n   • AutoCAD LT 63 Licenses: 15,000 → 8,500 THB/year\n   • AutoCAD Full 7 Licenses: 60,000 → 8,500 THB/year\n   ➤ Saved ~770,000 THB/year\n2. Reduced Server Virtualization cost by 52%\n   Changed Platform from VMware → Nutanix\n   • Server cost: 21,000 → 10,000 THB/month\n   ➤ Saved ~132,000 THB/year\n3. Migrated Humano HR Cloud Server — 54% cost reduction with better specs\n   • Service cost: 19,100 → 8,800 THB/month\n   ➤ Saved ~124,000 THB/year\n4. Optimized Microsoft 365 License Structure (160 Users)\n   Adjusted Mix: Premium 35 → 10, Standard 125 → 150\n   • Allocated Premium only to roles that use Premium features\n   ➤ Saved ~100,000 THB/year\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 Infrastructure & Development\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. Built new HQ IT Infrastructure (Bangbon 5) End-to-End single-handedly\n   Design → Procurement → Installation → Handover, alone for the whole project\n   • Server AD covering 160 Users & Security\n   • Fortigate 100F managing Policy, VPN, Access Control\n   • TP-Link Omada Switch + 8 APs covering the entire building\n   • Finger Scan from 19 project sites centralized in Real-time via ZKT Protocol\n6. ERP Mango Migration: Sybase → SQL Web-based (as PM)\n   ➤ Closed project within 1 month\n   ➤ 100% system stability after Go-Live\n   ➤ Solved years-old Bandwidth issues completely\n7. Developed 3 in-house Web Apps\n   • Help Desk Ticketing → Reduced resolution time by 95%\n   • IT Project Dashboard → Tracking + Budget + Gantt\n   • Print Cost Dashboard → Print cost report for Executives\n   ➤ Stack: Google Apps Script + Google Sheets\n8. Self-installed IP Phone system (2 lines / 10 extensions)\n   Done in-house, no outsourcing — saved installation and monthly service costs"
-        },
-        "zh": {
-          "title": "IT 经理(代理)",
-          "org": "S.MEC Engineering 有限公司",
-          "meta": "2023年11月 – 至今",
-          "bullets": [
-            "1. IT 部门规划与管理",
-            "- 规划年度 IT 预算(资本支出和运营支出)",
-            "- 领导 IT 支持团队服务 160 名员工",
-            "- 与供应商谈判,比较价格和规格以选择最佳方案",
-            "- 维护 IT 系统每年通过 ISO 9001:2015 审核",
-            "2. 网络与基础设施",
-            "- 从零开始建设总部网络 — AD、VLAN、交换机和 8 个 Omada AP",
-            "- 设置双 ISP 负载均衡,保持 99% 正常运行时间",
-            "- 部署 Fortigate 100F 管理策略、VPN 和访问控制",
-            "3. 服务器与云",
-            "- 管理 Active Directory:域、OU、GPO 和文件权限",
-            "- 维护 ERP Mango(在 UIH 云上)和 Humano HR(在 Inet 云上)",
-            "- 管理 Microsoft 365:用户、Exchange、Teams、MFA 设置",
-            "- 管理软件许可证:M365、AutoCAD、Revit、BIM、SketchUp",
-            "4. 安全与终端",
-            "- 管理 163 个终端设备(158 台笔记本电脑 + 5 台 PC)",
-            "- 在项目现场设置 CCTV 和指纹考勤,集成云端",
-            "- NAS 备份(每日/每周)及灾难恢复计划",
-            "5. 内部 Web 应用开发",
-            "- Help Desk 工单系统 — 缩短解决时间 95%",
-            "- IT 项目仪表板,用于跟踪项目和预算",
-            "- 打印成本仪表板,分析每个项目的打印成本",
-            "6. ERP 与数据库",
-            "- 管理 Mango ERP:用户管理、工作流设置(PR/PO/WO)、员工培训",
-            "- SQL Server:编写查询(SELECT、INSERT、UPDATE、DELETE)、JOIN、GROUP BY、ORDER BY、WHERE、备份/恢复、基本索引",
-            "7. 团队领导",
-            "- 分配任务、监控进度、指导团队成员",
-            "- 定义 IT 服务交付的 SLA 和 KPI"
-          ],
-          "highlight": "★ S.MEC Engineering 3 年工作成果总结\n✓ 每年降低 IT 成本超过 110 万泰铢\n✓ 从零开始建立新总部基础设施,支持 160 名用户\n✓ 开发 4 个内部 Web 应用程序\n✓ 在 1 个月内成功迁移 ERP 系统\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 IT 成本降低 — 共计 1,126,000 泰铢/年\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. 通过更换供应商,将 CAD 许可证成本降低 81%\n   将 AutoCAD → ZwCAD 共 70 个许可证\n   • AutoCAD LT 63 个许可证:15,000 → 8,500 泰铢/年\n   • AutoCAD Full 7 个许可证:60,000 → 8,500 泰铢/年\n   ➤ 节省约 770,000 泰铢/年\n2. 将服务器虚拟化成本降低 52%\n   将平台从 VMware → Nutanix\n   • 服务器成本:21,000 → 10,000 泰铢/月\n   ➤ 节省约 132,000 泰铢/年\n3. 迁移 Humano HR 云服务器 — 成本降低 54%,规格更高\n   • 服务费用:19,100 → 8,800 泰铢/月\n   ➤ 节省约 124,000 泰铢/年\n4. 优化 Microsoft 365 许可证结构(160 用户)\n   调整组合:Premium 35 → 10,Standard 125 → 150\n   • 仅为实际使用 Premium 功能的角色分配 Premium\n   ➤ 节省约 100,000 泰铢/年\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 基础设施与开发成果\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. 独自端到端建设新的总部 IT 基础设施(Bangbon 5)\n   设计 → 采购 → 安装 → 交付,独自完成整个项目\n   • Server AD 覆盖 160 用户和安全\n   • Fortigate 100F 管理策略、VPN、访问控制\n   • TP-Link Omada 交换机 + 8 个 AP 覆盖整栋建筑\n   • 19 个项目现场指纹考勤通过 ZKT 协议实时集中\n6. ERP Mango 迁移:Sybase → SQL Web 版(担任项目经理)\n   ➤ 1 个月内完成项目\n   ➤ 上线后系统稳定性 100%\n   ➤ 彻底解决多年来的带宽问题\n7. 开发 3 个内部 Web 应用程序\n   • Help Desk 工单 → 缩短解决时间 95%\n   • IT 项目仪表板 → 任务跟踪 + 预算 + 甘特图\n   • 打印成本仪表板 → 为管理层提供打印成本报告\n   ➤ 技术栈:Google Apps Script + Google Sheets\n8. 自行安装 IP 电话系统(2 线 / 10 分机)\n   内部完成无需外包 — 节省安装和月度服务费用"
-        }
-      }
+        "photo": "photos/avatar_3ed860fb.jpg"
     },
-    {
-      "id": "exp-2",
-      "translations": {
-        "th": {
-          "title": "IT Network Support",
-          "org": "TK-Connecting Co., Ltd.",
-          "meta": "ต.ค. 2564 – ก.พ. 2566",
-          "bullets": [
-            "1. Design and Plan IT Solutions",
-            "- Analyze client needs and design systems (e.g., Network, Server, Storage, Security, Cloud)",
-            "- Create Solution Diagrams and prepare Quotation/Proposal documents",
-            "2. Support Sales",
-            "- Collaborate with sales team to present solutions and explain technical details",
-            "- Answer client queries and provide consultation to support purchasing decisions",
-            "3. System Installation and Configuration",
-            "- Install and configure Hardware/Software (e.g., Server, Firewall, Switch, Router, Backup, Active Directory)",
-            "- Test systems to ensure functionality before handover",
-            "4. After-Sales Support",
-            "- Troubleshoot issues and maintain systems during warranty periods",
-            "- Provide on-site support to address client needs",
-            "5. System Maintenance",
-            "- Conduct scheduled equipment inspections (e.g., Server, Storage, UPS)",
-            "- Generate system status reports (e.g., Network Health Check Report)",
-            "6. Documentation and Training",
-            "- Develop user manuals and conduct client training",
-            "- Prepare project documents (e.g., UAT, Handover Document)",
-            "7. Skill Development and Technology Adoption",
-            "- Stay updated on technologies (e.g., Cloud, Virtualization, Cybersecurity)",
-            "- Apply knowledge to propose and implement efficient solutions"
-          ],
-          "highlight": "ในตำแหน่ง IT Network Support ที่ TK-Connecting Co.,Ltd. ผมรับผิดชอบออกแบบและติดตั้งระบบเครือข่ายสำหรับองค์กรขนาดเล็กถึงกลาง โดยเน้นงานด้าน Network, Server, Firewall และ VPN Site-to-Site พร้อมสนับสนุนการขายและบริการหลังการขายอย่างครบวงจร มีผลงานที่สำคัญ เช่น\r\nออกแบบและติดตั้งระบบเครือข่าย (Network Infrastructure) มากกว่า 10 โครงการ โดยมีมูลค่างานสูงสุดประมาณ 800,000 บาท\r\nติดตั้งและตั้งค่าอุปกรณ์ Network (Switch, Router, Firewall) และระบบ Server (เช่น Active Directory, File Server) ให้พร้อมใช้งานอย่างเสถียร\r\nออกแบบและติดตั้งระบบ VPN Site-to-Site เชื่อมต่อสำนักงานหลายสาขา เพื่อให้ข้อมูลสามารถแลกเปลี่ยนกันได้อย่างปลอดภัยและรวดเร็ว\r\nสนับสนุนทีมขายด้วยการจัดทำ Solution Diagram และอธิบายรายละเอียดเชิงเทคนิค เพื่อช่วยเพิ่มโอกาสในการปิดการขาย\r\nดูแลการบริการหลังการขาย รวมถึง Troubleshooting ปัญหาระบบเครือข่าย และวางแผนการบำรุงรักษาเชิงป้องกัน (Preventive Maintenance)\r\nพัฒนาความรู้ด้าน Network Security และเทคโนโลยีเครือข่ายใหม่ ๆ เพื่อยกระดับคุณภาพการทำงานให้ตอบโจทย์ความต้องการของลูกค้าได้มากขึ้น"
+    "experience": [
+        {
+            "id": "exp-1",
+            "translations": {
+                "th": {
+                    "title": "IT Manager (Acting)",
+                    "org": "S.MEC Engineering Co., Ltd.",
+                    "meta": "พ.ย. 2566 – ปัจจุบัน",
+                    "bullets": [
+                        "1. IT Department Planning & Management",
+                        "- Plan annual IT budget (Capex & Opex)",
+                        "- Lead IT Support team serving 160 employees",
+                        "- Negotiate with vendors/suppliers, compare pricing and specs to select the best value",
+                        "- Maintain IT systems to pass ISO 9001:2015 audit every year",
+                        "2. Network & Infrastructure",
+                        "- Built HQ network from the ground up — AD, VLAN, Switch, and 8 Omada APs",
+                        "- Set up Dual ISP with Load Balancing, maintaining 99% Uptime",
+                        "- Deployed Fortigate 100F for Policy, VPN, and Access Control",
+                        "3. Server & Cloud",
+                        "- Manage Active Directory: Domain, OU, GPO, and file permissions",
+                        "- Maintain ERP Mango (on UIH Cloud) and Humano HR (on Inet Cloud)",
+                        "- Administer Microsoft 365: Users, Exchange, Teams, MFA setup",
+                        "- Manage software licenses: M365, AutoCAD, Revit, BIM, SketchUp",
+                        "4. Security & Endpoint",
+                        "- Manage 163 endpoint devices (158 Notebooks + 5 PCs)",
+                        "- Set up CCTV at project sites and Finger Scan integrated with Cloud",
+                        "- NAS Backup (Daily/Weekly) with Disaster Recovery plan",
+                        "5. In-House Web App Development",
+                        "- Help Desk Ticketing System — reduced resolution time by 95%",
+                        "- IT Project Dashboard for tracking projects and budgets",
+                        "- Print Cost Dashboard analyzing print costs per project",
+                        "6. ERP & Database",
+                        "- Manage Mango ERP: user management, Workflow setup (PR/PO/WO), staff training",
+                        "- SQL Server: write Queries (SELECT, INSERT, UPDATE, DELETE), JOIN, GROUP BY, ORDER BY, WHERE, Backup/Restore, Basic Indexing",
+                        "7. Team Leadership",
+                        "- Assign tasks, monitor progress, mentor team members",
+                        "- Define SLA and KPIs for IT service delivery"
+                    ],
+                    "highlight": "★ สรุปผลงาน 3 ปี ที่ S.MEC Engineering\r\n✓ ลดต้นทุน IT รวมกว่า 1.1 ล้านบาท/ปี\r\n✓ วาง Infrastructure HQ ใหม่จาก 0 รองรับ 160 User\r\n✓ พัฒนา Web App ใช้เองในองค์กร 4 ระบบ\r\n✓ ย้ายระบบ ERP สำเร็จใน 1 เดือน\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n🔹 ผลงานลดต้นทุน IT — รวม 1,126,000 บาท/ปี\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n1. ลดค่า License CAD ลง 81% ผ่านการเปลี่ยน Vendor\r\n   เปลี่ยน AutoCAD → ZwCAD รวม 70 License\r\n   • AutoCAD LT 63 License: 15,000 → 8,500 บาท/ปี\r\n   • AutoCAD Full 7 License: 60,000 → 8,500 บาท/ปี\r\n   ➤ ประหยัด ~770,000 บาท/ปี\r\n2. ลดค่า Server Virtualization ลง 52%\r\n   เปลี่ยน Platform จาก VMware → Nutanix\r\n   • ค่า Server: 21,000 → 10,000 บาท/เดือน\r\n   ➤ ประหยัด ~132,000 บาท/ปี\r\n3. ย้าย Cloud Server ของ Humano HR ลด Cost 54% สเปคดีขึ้น\r\n   • ค่าบริการ: 19,100 → 8,800 บาท/เดือน\r\n   ➤ ประหยัด ~124,000 บาท/ปี\r\n4. Optimize Microsoft 365 License Structure (160 User)\r\n   ปรับ Mix: Premium 35 → 10, Standard 125 → 150\r\n   • จัด Premium เฉพาะตำแหน่งที่ใช้ Feature จริง\r\n   ➤ ประหยัด ~100,000 บาท/ปี\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n🔹 ผลงานวางระบบและพัฒนา\r\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n5. วาง IT Infrastructure HQ ใหม่ (Bangbon 5) ทำคนเดียว End-to-End\r\n   ออกแบบ → จัดซื้อ → ติดตั้ง → ส่งมอบ คนเดียวทั้งโปรเจกต์\r\n   • Server AD ครอบคลุม User & Security 160 คน\r\n   • Fortigate 100F คุม Policy, VPN, Access Control\r\n   • TP-Link Omada Switch + AP 8 ตัวครอบคลุมอาคาร\r\n   • Finger Scan 19 ไซต์งานเข้าศูนย์กลาง Real-time ผ่าน ZKT Protocol\r\n6. ERP Mango Migration: Sybase → SQL Web-based (รับเป็น PM)\r\n   ➤ ปิดโปรเจกต์ใน 1 เดือน\r\n   ➤ ระบบเสถียร 100% หลัง Go-Live\r\n   ➤ แก้ปัญหา Bandwidth ที่ค้างมานานหลายปีจนหมด\r\n7. พัฒนา Web App ใช้เองในองค์กร 3 ระบบ\r\n   • Help Desk Ticketing → ลดเวลาแก้ปัญหา 95%\r\n   • IT Project Dashboard → ติดตามงาน + งบประมาณ + Gantt\r\n   • Print Cost Dashboard → รายงานค่าพิมพ์ให้ Executive\r\n   ➤ Stack: Google Apps Script + Google Sheets\r\n8. ติดตั้งระบบ IP Phone เอง (2 lines / 10 extensions)\r\n   ทำเองไม่จ้าง Outsource — ประหยัดค่าติดตั้งและค่าบริการรายเดือน"
+                },
+                "en": {
+                    "title": "IT Manager (Acting)",
+                    "org": "S.MEC Engineering Co., Ltd.",
+                    "meta": "Nov 2023 – Present",
+                    "bullets": [
+                        "1. IT Department Planning & Management",
+                        "- Plan annual IT budget (Capex & Opex)",
+                        "- Lead IT Support team serving 160 employees",
+                        "- Negotiate with vendors/suppliers, compare pricing and specs to select the best value",
+                        "- Maintain IT systems to pass ISO 9001:2015 audit every year",
+                        "2. Network & Infrastructure",
+                        "- Built HQ network from the ground up — AD, VLAN, Switch, and 8 Omada APs",
+                        "- Set up Dual ISP with Load Balancing, maintaining 99% Uptime",
+                        "- Deployed Fortigate 100F for Policy, VPN, and Access Control",
+                        "3. Server & Cloud",
+                        "- Manage Active Directory: Domain, OU, GPO, and file permissions",
+                        "- Maintain ERP Mango (on UIH Cloud) and Humano HR (on Inet Cloud)",
+                        "- Administer Microsoft 365: Users, Exchange, Teams, MFA setup",
+                        "- Manage software licenses: M365, AutoCAD, Revit, BIM, SketchUp",
+                        "4. Security & Endpoint",
+                        "- Manage 163 endpoint devices (158 Notebooks + 5 PCs)",
+                        "- Set up CCTV at project sites and Finger Scan integrated with Cloud",
+                        "- NAS Backup (Daily/Weekly) with Disaster Recovery plan",
+                        "5. In-House Web App Development",
+                        "- Help Desk Ticketing System — reduced resolution time by 95%",
+                        "- IT Project Dashboard for tracking projects and budgets",
+                        "- Print Cost Dashboard analyzing print costs per project",
+                        "6. ERP & Database",
+                        "- Manage Mango ERP: user management, Workflow setup (PR/PO/WO), staff training",
+                        "- SQL Server: write Queries (SELECT, INSERT, UPDATE, DELETE), JOIN, GROUP BY, ORDER BY, WHERE, Backup/Restore, Basic Indexing",
+                        "7. Team Leadership",
+                        "- Assign tasks, monitor progress, mentor team members",
+                        "- Define SLA and KPIs for IT service delivery"
+                    ],
+                    "highlight": "★ 3-Year Summary at S.MEC Engineering\n✓ Reduced IT costs by over 1.1M THB/year\n✓ Built new HQ Infrastructure from scratch supporting 160 users\n✓ Developed 4 in-house web applications\n✓ Successfully migrated ERP system in 1 month\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 IT Cost Reduction — Total 1,126,000 THB/year\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. Reduced CAD License cost by 81% through vendor change\n   Switched AutoCAD → ZwCAD across 70 licenses\n   • AutoCAD LT 63 Licenses: 15,000 → 8,500 THB/year\n   • AutoCAD Full 7 Licenses: 60,000 → 8,500 THB/year\n   ➤ Saved ~770,000 THB/year\n2. Reduced Server Virtualization cost by 52%\n   Changed Platform from VMware → Nutanix\n   • Server cost: 21,000 → 10,000 THB/month\n   ➤ Saved ~132,000 THB/year\n3. Migrated Humano HR Cloud Server — 54% cost reduction with better specs\n   • Service cost: 19,100 → 8,800 THB/month\n   ➤ Saved ~124,000 THB/year\n4. Optimized Microsoft 365 License Structure (160 Users)\n   Adjusted Mix: Premium 35 → 10, Standard 125 → 150\n   • Allocated Premium only to roles that use Premium features\n   ➤ Saved ~100,000 THB/year\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 Infrastructure & Development\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. Built new HQ IT Infrastructure (Bangbon 5) End-to-End single-handedly\n   Design → Procurement → Installation → Handover, alone for the whole project\n   • Server AD covering 160 Users & Security\n   • Fortigate 100F managing Policy, VPN, Access Control\n   • TP-Link Omada Switch + 8 APs covering the entire building\n   • Finger Scan from 19 project sites centralized in Real-time via ZKT Protocol\n6. ERP Mango Migration: Sybase → SQL Web-based (as PM)\n   ➤ Closed project within 1 month\n   ➤ 100% system stability after Go-Live\n   ➤ Solved years-old Bandwidth issues completely\n7. Developed 3 in-house Web Apps\n   • Help Desk Ticketing → Reduced resolution time by 95%\n   • IT Project Dashboard → Tracking + Budget + Gantt\n   • Print Cost Dashboard → Print cost report for Executives\n   ➤ Stack: Google Apps Script + Google Sheets\n8. Self-installed IP Phone system (2 lines / 10 extensions)\n   Done in-house, no outsourcing — saved installation and monthly service costs"
+                },
+                "zh": {
+                    "title": "IT 经理(代理)",
+                    "org": "S.MEC Engineering 有限公司",
+                    "meta": "2023年11月 – 至今",
+                    "bullets": [
+                        "1. IT 部门规划与管理",
+                        "- 规划年度 IT 预算(资本支出和运营支出)",
+                        "- 领导 IT 支持团队服务 160 名员工",
+                        "- 与供应商谈判,比较价格和规格以选择最佳方案",
+                        "- 维护 IT 系统每年通过 ISO 9001:2015 审核",
+                        "2. 网络与基础设施",
+                        "- 从零开始建设总部网络 — AD、VLAN、交换机和 8 个 Omada AP",
+                        "- 设置双 ISP 负载均衡,保持 99% 正常运行时间",
+                        "- 部署 Fortigate 100F 管理策略、VPN 和访问控制",
+                        "3. 服务器与云",
+                        "- 管理 Active Directory:域、OU、GPO 和文件权限",
+                        "- 维护 ERP Mango(在 UIH 云上)和 Humano HR(在 Inet 云上)",
+                        "- 管理 Microsoft 365:用户、Exchange、Teams、MFA 设置",
+                        "- 管理软件许可证:M365、AutoCAD、Revit、BIM、SketchUp",
+                        "4. 安全与终端",
+                        "- 管理 163 个终端设备(158 台笔记本电脑 + 5 台 PC)",
+                        "- 在项目现场设置 CCTV 和指纹考勤,集成云端",
+                        "- NAS 备份(每日/每周)及灾难恢复计划",
+                        "5. 内部 Web 应用开发",
+                        "- Help Desk 工单系统 — 缩短解决时间 95%",
+                        "- IT 项目仪表板,用于跟踪项目和预算",
+                        "- 打印成本仪表板,分析每个项目的打印成本",
+                        "6. ERP 与数据库",
+                        "- 管理 Mango ERP:用户管理、工作流设置(PR/PO/WO)、员工培训",
+                        "- SQL Server:编写查询(SELECT、INSERT、UPDATE、DELETE)、JOIN、GROUP BY、ORDER BY、WHERE、备份/恢复、基本索引",
+                        "7. 团队领导",
+                        "- 分配任务、监控进度、指导团队成员",
+                        "- 定义 IT 服务交付的 SLA 和 KPI"
+                    ],
+                    "highlight": "★ S.MEC Engineering 3 年工作成果总结\n✓ 每年降低 IT 成本超过 110 万泰铢\n✓ 从零开始建立新总部基础设施,支持 160 名用户\n✓ 开发 4 个内部 Web 应用程序\n✓ 在 1 个月内成功迁移 ERP 系统\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 IT 成本降低 — 共计 1,126,000 泰铢/年\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n1. 通过更换供应商,将 CAD 许可证成本降低 81%\n   将 AutoCAD → ZwCAD 共 70 个许可证\n   • AutoCAD LT 63 个许可证:15,000 → 8,500 泰铢/年\n   • AutoCAD Full 7 个许可证:60,000 → 8,500 泰铢/年\n   ➤ 节省约 770,000 泰铢/年\n2. 将服务器虚拟化成本降低 52%\n   将平台从 VMware → Nutanix\n   • 服务器成本:21,000 → 10,000 泰铢/月\n   ➤ 节省约 132,000 泰铢/年\n3. 迁移 Humano HR 云服务器 — 成本降低 54%,规格更高\n   • 服务费用:19,100 → 8,800 泰铢/月\n   ➤ 节省约 124,000 泰铢/年\n4. 优化 Microsoft 365 许可证结构(160 用户)\n   调整组合:Premium 35 → 10,Standard 125 → 150\n   • 仅为实际使用 Premium 功能的角色分配 Premium\n   ➤ 节省约 100,000 泰铢/年\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔹 基础设施与开发成果\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n5. 独自端到端建设新的总部 IT 基础设施(Bangbon 5)\n   设计 → 采购 → 安装 → 交付,独自完成整个项目\n   • Server AD 覆盖 160 用户和安全\n   • Fortigate 100F 管理策略、VPN、访问控制\n   • TP-Link Omada 交换机 + 8 个 AP 覆盖整栋建筑\n   • 19 个项目现场指纹考勤通过 ZKT 协议实时集中\n6. ERP Mango 迁移:Sybase → SQL Web 版(担任项目经理)\n   ➤ 1 个月内完成项目\n   ➤ 上线后系统稳定性 100%\n   ➤ 彻底解决多年来的带宽问题\n7. 开发 3 个内部 Web 应用程序\n   • Help Desk 工单 → 缩短解决时间 95%\n   • IT 项目仪表板 → 任务跟踪 + 预算 + 甘特图\n   • 打印成本仪表板 → 为管理层提供打印成本报告\n   ➤ 技术栈:Google Apps Script + Google Sheets\n8. 自行安装 IP 电话系统(2 线 / 10 分机)\n   内部完成无需外包 — 节省安装和月度服务费用"
+                }
+            }
         },
-        "en": {
-          "title": "IT Network Support",
-          "org": "TK-Connecting Co., Ltd.",
-          "meta": "Oct 2021 – Feb 2023",
-          "bullets": [
-            "1. Design and Plan IT Solutions",
-            "- Analyze client needs and design systems (e.g., Network, Server, Storage, Security, Cloud)",
-            "- Create Solution Diagrams and prepare Quotation/Proposal documents",
-            "2. Support Sales",
-            "- Collaborate with sales team to present solutions and explain technical details",
-            "- Answer client queries and provide consultation to support purchasing decisions",
-            "3. System Installation and Configuration",
-            "- Install and configure Hardware/Software (e.g., Server, Firewall, Switch, Router, Backup, Active Directory)",
-            "- Test systems to ensure functionality before handover",
-            "4. After-Sales Support",
-            "- Troubleshoot issues and maintain systems during warranty periods",
-            "- Provide on-site support to address client needs",
-            "5. System Maintenance",
-            "- Conduct scheduled equipment inspections (e.g., Server, Storage, UPS)",
-            "- Generate system status reports (e.g., Network Health Check Report)",
-            "6. Documentation and Training",
-            "- Develop user manuals and conduct client training",
-            "- Prepare project documents (e.g., UAT, Handover Document)",
-            "7. Skill Development and Technology Adoption",
-            "- Stay updated on technologies (e.g., Cloud, Virtualization, Cybersecurity)",
-            "- Apply knowledge to propose and implement efficient solutions"
-          ],
-          "highlight": "As IT Network Support at TK-Connecting Co., Ltd., I was responsible for designing and installing network systems for small to medium-sized organizations, focusing on Network, Server, Firewall, and Site-to-Site VPN, along with full sales support and after-sales service. Key accomplishments include:\n1. Designed and installed Network Infrastructure for over 10 projects, with the largest valued at approximately 800,000 THB\n2. Installed and configured Network equipment (Switch, Router, Firewall) and Server systems (e.g., Active Directory, File Server) for stable operation\n3. Designed and deployed Site-to-Site VPN connecting multiple branch offices for secure and fast data exchange\n4. Supported the sales team by creating Solution Diagrams and explaining technical details to improve deal closure rates\n5. Provided after-sales service including network troubleshooting and Preventive Maintenance planning\n6. Continuously developed expertise in Network Security and new networking technologies to better meet customer needs"
+        {
+            "id": "exp-2",
+            "translations": {
+                "th": {
+                    "title": "IT Network Support",
+                    "org": "TK-Connecting Co., Ltd.",
+                    "meta": "ต.ค. 2564 – ก.พ. 2566",
+                    "bullets": [
+                        "1. Design and Plan IT Solutions",
+                        "- Analyze client needs and design systems (e.g., Network, Server, Storage, Security, Cloud)",
+                        "- Create Solution Diagrams and prepare Quotation/Proposal documents",
+                        "2. Support Sales",
+                        "- Collaborate with sales team to present solutions and explain technical details",
+                        "- Answer client queries and provide consultation to support purchasing decisions",
+                        "3. System Installation and Configuration",
+                        "- Install and configure Hardware/Software (e.g., Server, Firewall, Switch, Router, Backup, Active Directory)",
+                        "- Test systems to ensure functionality before handover",
+                        "4. After-Sales Support",
+                        "- Troubleshoot issues and maintain systems during warranty periods",
+                        "- Provide on-site support to address client needs",
+                        "5. System Maintenance",
+                        "- Conduct scheduled equipment inspections (e.g., Server, Storage, UPS)",
+                        "- Generate system status reports (e.g., Network Health Check Report)",
+                        "6. Documentation and Training",
+                        "- Develop user manuals and conduct client training",
+                        "- Prepare project documents (e.g., UAT, Handover Document)",
+                        "7. Skill Development and Technology Adoption",
+                        "- Stay updated on technologies (e.g., Cloud, Virtualization, Cybersecurity)",
+                        "- Apply knowledge to propose and implement efficient solutions"
+                    ],
+                    "highlight": "ในตำแหน่ง IT Network Support ที่ TK-Connecting Co.,Ltd. ผมรับผิดชอบออกแบบและติดตั้งระบบเครือข่ายสำหรับองค์กรขนาดเล็กถึงกลาง โดยเน้นงานด้าน Network, Server, Firewall และ VPN Site-to-Site พร้อมสนับสนุนการขายและบริการหลังการขายอย่างครบวงจร มีผลงานที่สำคัญ เช่น\r\nออกแบบและติดตั้งระบบเครือข่าย (Network Infrastructure) มากกว่า 10 โครงการ โดยมีมูลค่างานสูงสุดประมาณ 800,000 บาท\r\nติดตั้งและตั้งค่าอุปกรณ์ Network (Switch, Router, Firewall) และระบบ Server (เช่น Active Directory, File Server) ให้พร้อมใช้งานอย่างเสถียร\r\nออกแบบและติดตั้งระบบ VPN Site-to-Site เชื่อมต่อสำนักงานหลายสาขา เพื่อให้ข้อมูลสามารถแลกเปลี่ยนกันได้อย่างปลอดภัยและรวดเร็ว\r\nสนับสนุนทีมขายด้วยการจัดทำ Solution Diagram และอธิบายรายละเอียดเชิงเทคนิค เพื่อช่วยเพิ่มโอกาสในการปิดการขาย\r\nดูแลการบริการหลังการขาย รวมถึง Troubleshooting ปัญหาระบบเครือข่าย และวางแผนการบำรุงรักษาเชิงป้องกัน (Preventive Maintenance)\r\nพัฒนาความรู้ด้าน Network Security และเทคโนโลยีเครือข่ายใหม่ ๆ เพื่อยกระดับคุณภาพการทำงานให้ตอบโจทย์ความต้องการของลูกค้าได้มากขึ้น"
+                },
+                "en": {
+                    "title": "IT Network Support",
+                    "org": "TK-Connecting Co., Ltd.",
+                    "meta": "Oct 2021 – Feb 2023",
+                    "bullets": [
+                        "1. Design and Plan IT Solutions",
+                        "- Analyze client needs and design systems (e.g., Network, Server, Storage, Security, Cloud)",
+                        "- Create Solution Diagrams and prepare Quotation/Proposal documents",
+                        "2. Support Sales",
+                        "- Collaborate with sales team to present solutions and explain technical details",
+                        "- Answer client queries and provide consultation to support purchasing decisions",
+                        "3. System Installation and Configuration",
+                        "- Install and configure Hardware/Software (e.g., Server, Firewall, Switch, Router, Backup, Active Directory)",
+                        "- Test systems to ensure functionality before handover",
+                        "4. After-Sales Support",
+                        "- Troubleshoot issues and maintain systems during warranty periods",
+                        "- Provide on-site support to address client needs",
+                        "5. System Maintenance",
+                        "- Conduct scheduled equipment inspections (e.g., Server, Storage, UPS)",
+                        "- Generate system status reports (e.g., Network Health Check Report)",
+                        "6. Documentation and Training",
+                        "- Develop user manuals and conduct client training",
+                        "- Prepare project documents (e.g., UAT, Handover Document)",
+                        "7. Skill Development and Technology Adoption",
+                        "- Stay updated on technologies (e.g., Cloud, Virtualization, Cybersecurity)",
+                        "- Apply knowledge to propose and implement efficient solutions"
+                    ],
+                    "highlight": "As IT Network Support at TK-Connecting Co., Ltd., I was responsible for designing and installing network systems for small to medium-sized organizations, focusing on Network, Server, Firewall, and Site-to-Site VPN, along with full sales support and after-sales service. Key accomplishments include:\n1. Designed and installed Network Infrastructure for over 10 projects, with the largest valued at approximately 800,000 THB\n2. Installed and configured Network equipment (Switch, Router, Firewall) and Server systems (e.g., Active Directory, File Server) for stable operation\n3. Designed and deployed Site-to-Site VPN connecting multiple branch offices for secure and fast data exchange\n4. Supported the sales team by creating Solution Diagrams and explaining technical details to improve deal closure rates\n5. Provided after-sales service including network troubleshooting and Preventive Maintenance planning\n6. Continuously developed expertise in Network Security and new networking technologies to better meet customer needs"
+                },
+                "zh": {
+                    "title": "IT 网络支持",
+                    "org": "TK-Connecting 有限公司",
+                    "meta": "2021年10月 – 2023年2月",
+                    "bullets": [
+                        "1. 设计和规划 IT 解决方案",
+                        "- 分析客户需求并设计系统(如网络、服务器、存储、安全、云)",
+                        "- 创建解决方案图表并准备报价/提案文件",
+                        "2. 销售支持",
+                        "- 与销售团队合作,展示解决方案并解释技术细节",
+                        "- 回答客户疑问并提供咨询以支持采购决策",
+                        "3. 系统安装和配置",
+                        "- 安装和配置硬件/软件(如服务器、防火墙、交换机、路由器、备份、Active Directory)",
+                        "- 在交付前测试系统功能",
+                        "4. 售后支持",
+                        "- 在保修期内排除故障和维护系统",
+                        "- 提供现场支持以满足客户需求",
+                        "5. 系统维护",
+                        "- 进行定期设备检查(如服务器、存储、UPS)",
+                        "- 生成系统状态报告(如网络健康检查报告)",
+                        "6. 文档和培训",
+                        "- 编写用户手册并进行客户培训",
+                        "- 准备项目文档(如 UAT、交付文档)",
+                        "7. 技能发展和技术应用",
+                        "- 持续关注新技术(如云、虚拟化、网络安全)",
+                        "- 应用知识提出和实施高效解决方案"
+                    ],
+                    "highlight": "在 TK-Connecting Co., Ltd. 担任 IT 网络支持期间,我负责为中小型组织设计和安装网络系统,专注于网络、服务器、防火墙和站点到站点 VPN,并提供全面的销售支持和售后服务。主要成就包括:\n1. 设计并安装了 10 多个网络基础设施项目,最大项目价值约 800,000 泰铢\n2. 安装和配置网络设备(交换机、路由器、防火墙)和服务器系统(如 Active Directory、文件服务器)以确保稳定运行\n3. 设计并部署站点到站点 VPN 连接多个分支机构,实现安全快速的数据交换\n4. 通过创建解决方案图表和解释技术细节支持销售团队,提高成交率\n5. 提供售后服务,包括网络故障排除和预防性维护规划\n6. 持续发展网络安全和新网络技术方面的专业知识,以更好地满足客户需求"
+                }
+            }
         },
-        "zh": {
-          "title": "IT 网络支持",
-          "org": "TK-Connecting 有限公司",
-          "meta": "2021年10月 – 2023年2月",
-          "bullets": [
-            "1. 设计和规划 IT 解决方案",
-            "- 分析客户需求并设计系统(如网络、服务器、存储、安全、云)",
-            "- 创建解决方案图表并准备报价/提案文件",
-            "2. 销售支持",
-            "- 与销售团队合作,展示解决方案并解释技术细节",
-            "- 回答客户疑问并提供咨询以支持采购决策",
-            "3. 系统安装和配置",
-            "- 安装和配置硬件/软件(如服务器、防火墙、交换机、路由器、备份、Active Directory)",
-            "- 在交付前测试系统功能",
-            "4. 售后支持",
-            "- 在保修期内排除故障和维护系统",
-            "- 提供现场支持以满足客户需求",
-            "5. 系统维护",
-            "- 进行定期设备检查(如服务器、存储、UPS)",
-            "- 生成系统状态报告(如网络健康检查报告)",
-            "6. 文档和培训",
-            "- 编写用户手册并进行客户培训",
-            "- 准备项目文档(如 UAT、交付文档)",
-            "7. 技能发展和技术应用",
-            "- 持续关注新技术(如云、虚拟化、网络安全)",
-            "- 应用知识提出和实施高效解决方案"
-          ],
-          "highlight": "在 TK-Connecting Co., Ltd. 担任 IT 网络支持期间,我负责为中小型组织设计和安装网络系统,专注于网络、服务器、防火墙和站点到站点 VPN,并提供全面的销售支持和售后服务。主要成就包括:\n1. 设计并安装了 10 多个网络基础设施项目,最大项目价值约 800,000 泰铢\n2. 安装和配置网络设备(交换机、路由器、防火墙)和服务器系统(如 Active Directory、文件服务器)以确保稳定运行\n3. 设计并部署站点到站点 VPN 连接多个分支机构,实现安全快速的数据交换\n4. 通过创建解决方案图表和解释技术细节支持销售团队,提高成交率\n5. 提供售后服务,包括网络故障排除和预防性维护规划\n6. 持续发展网络安全和新网络技术方面的专业知识,以更好地满足客户需求"
+        {
+            "id": "exp-3",
+            "translations": {
+                "th": {
+                    "title": "IT Support",
+                    "org": "Professional Laboratories Management Corp Pub Co., Ltd.",
+                    "meta": "พ.ค. 2563 – ต.ค. 2564",
+                    "bullets": [
+                        "1. Server Management",
+                        "- Manage user accounts and logins via Active Directory",
+                        "- Configure security policies using Group Policy",
+                        "- Administer file sharing and access permissions based on roles",
+                        "2. Cloud Systems and Security Management",
+                        "- Oversee HIS-LIS SQL SYMPHONY system",
+                        "- Manage Nods32 Endpoint Security on cloud for endpoint protection",
+                        "- Administer Google G-Suite (user accounts, email, security)",
+                        "3. IT Infrastructure Planning and Installation",
+                        "- Design and install Server AD, Switch, Fingerscan, CCTV, NAS, and backup systems",
+                        "4. System Maintenance and Support",
+                        "- Prioritize and track repair requests via an online system",
+                        "- Define SLAs, analyze data, and conduct surveys for improvement",
+                        "- Train IT team to handle new technologies",
+                        "5. Budget Management",
+                        "- Prepare budgets for equipment, maintenance, software licenses, subscriptions",
+                        "- Coordinate with vendors to compare quotes and select services",
+                        "6. Data Security Management",
+                        "- Implement security measures to protect data per standards",
+                        "7. Team Leadership and Development",
+                        "- Assign tasks, monitor performance, and support IT team training"
+                    ],
+                    "highlight": "ในตำแหน่ง IT Support ที่ Professional Laboratories Management Corp Pub Co., Ltd. ผมได้มีโอกาสรับผิดชอบโปรเจกต์สำคัญในการย้ายระบบ Server ของ Hospital Information System (HIS) จากระบบ On-Premise ขึ้นสู่ Cloud สำเร็จ โดยมีผลงานที่โดดเด่นดังนี้\r\nวางแผนและประสานงานการย้ายข้อมูล HIS ทั้งระบบไปยัง Cloud Infrastructure \r\nดำเนินการสำรองข้อมูล (Backup) และทดสอบการกู้คืนข้อมูล (Restore) เพื่อป้องกันข้อมูลสูญหายระหว่างการย้ายระบบ\r\nปรับแต่งการตั้งค่า Cloud Environment เพื่อให้ระบบ HIS ทำงานได้อย่างมีเสถียรภาพ พร้อมเพิ่มมาตรการความปลอดภัยด้านข้อมูลตามมาตรฐาน HIPAA (หรือมาตรฐานความปลอดภัยข้อมูลสุขภาพ ถ้ามีการอ้างอิง)\r\nลดค่าใช้จ่ายในการดูแลรักษา Server และเพิ่มความยืดหยุ่นในการขยายระบบในอนาคต\r\nโครงการนี้สำเร็จภายในระยะเวลาที่กำหนด พร้อมทำการทดสอบ (UAT) และส่งมอบระบบให้กับฝ่ายผู้ใช้งานได้สำเร็จ"
+                },
+                "en": {
+                    "title": "IT Support",
+                    "org": "Professional Laboratories Management Corp Pub Co., Ltd.",
+                    "meta": "May 2020 – Oct 2021",
+                    "bullets": [
+                        "1. Server Management",
+                        "- Manage user accounts and logins via Active Directory",
+                        "- Configure security policies using Group Policy",
+                        "- Administer file sharing and access permissions based on roles",
+                        "2. Cloud Systems and Security Management",
+                        "- Oversee HIS-LIS SQL SYMPHONY system",
+                        "- Manage Nods32 Endpoint Security on cloud for endpoint protection",
+                        "- Administer Google G-Suite (user accounts, email, security)",
+                        "3. IT Infrastructure Planning and Installation",
+                        "- Design and install Server AD, Switch, Fingerscan, CCTV, NAS, and backup systems",
+                        "4. System Maintenance and Support",
+                        "- Prioritize and track repair requests via an online system",
+                        "- Define SLAs, analyze data, and conduct surveys for improvement",
+                        "- Train IT team to handle new technologies",
+                        "5. Budget Management",
+                        "- Prepare budgets for equipment, maintenance, software licenses, subscriptions",
+                        "- Coordinate with vendors to compare quotes and select services",
+                        "6. Data Security Management",
+                        "- Implement security measures to protect data per standards",
+                        "7. Team Leadership and Development",
+                        "- Assign tasks, monitor performance, and support IT team training"
+                    ],
+                    "highlight": "As IT Support at Professional Laboratories Management Corp Pub Co., Ltd., I was responsible for a key project migrating the Hospital Information System (HIS) Server from On-Premise to Cloud successfully, with notable achievements as follows:\n1. Planned and coordinated the migration of the entire HIS system to Cloud Infrastructure\n2. Executed data backup and restore testing to prevent data loss during migration\n3. Configured Cloud Environment settings to ensure stable HIS operation, with enhanced data security per HIPAA standards (or applicable health data security standards)\n4. Reduced server maintenance costs and increased flexibility for future scaling\n5. Project was completed on schedule with successful UAT and handover to end users"
+                },
+                "zh": {
+                    "title": "IT 支持",
+                    "org": "Professional Laboratories Management Corp 公众有限公司",
+                    "meta": "2020年5月 – 2021年10月",
+                    "bullets": [
+                        "1. 服务器管理",
+                        "- 通过 Active Directory 管理用户账户和登录",
+                        "- 使用组策略配置安全策略",
+                        "- 根据角色管理文件共享和访问权限",
+                        "2. 云系统和安全管理",
+                        "- 监督 HIS-LIS SQL SYMPHONY 系统",
+                        "- 在云端管理 Nods32 端点安全保护",
+                        "- 管理 Google G-Suite(用户账户、电子邮件、安全)",
+                        "3. IT 基础设施规划和安装",
+                        "- 设计和安装 Server AD、交换机、指纹考勤、CCTV、NAS 和备份系统",
+                        "4. 系统维护和支持",
+                        "- 通过在线系统优先处理和跟踪维修请求",
+                        "- 定义 SLA、分析数据并进行改进调查",
+                        "- 培训 IT 团队处理新技术",
+                        "5. 预算管理",
+                        "- 为设备、维护、软件许可证、订阅准备预算",
+                        "- 与供应商协调,比较报价并选择服务",
+                        "6. 数据安全管理",
+                        "- 按标准实施保护数据的安全措施",
+                        "7. 团队领导和发展",
+                        "- 分配任务、监控绩效并支持 IT 团队培训"
+                    ],
+                    "highlight": "在 Professional Laboratories Management Corp Pub Co., Ltd. 担任 IT 支持期间,我负责将医院信息系统(HIS)服务器从本地系统成功迁移到云端的关键项目,主要成就如下:\n1. 规划和协调整个 HIS 系统迁移到云基础设施\n2. 执行数据备份和恢复测试,以防止迁移过程中数据丢失\n3. 配置云环境设置以确保 HIS 系统稳定运行,并按 HIPAA 标准(或适用的健康数据安全标准)加强数据安全\n4. 降低服务器维护成本并提高未来扩展的灵活性\n5. 项目按时完成,UAT 测试成功,并成功向最终用户交付"
+                }
+            }
+        },
+        {
+            "id": "exp-4",
+            "translations": {
+                "th": {
+                    "title": "IT Support",
+                    "org": "Nanmee Industry Co., Ltd.",
+                    "meta": "มี.ค. 2562 – เม.ย. 2563",
+                    "bullets": [
+                        "1. Server and Active Directory Management",
+                        "- Oversee server operations and manage Active Directory",
+                        "- Create/edit/delete user accounts, manage Group Policy, and access rights",
+                        "2. Repair and Troubleshoot IT Equipment",
+                        "- Address issues with Hardware, Software, Network, Email, Internet, and ERP (Oracle)",
+                        "- Perform repairs to ensure smooth system functionality",
+                        "3. Maintenance of Computers and Network Systems",
+                        "- Maintain PCs, Notebooks, network devices, and internet connectivity",
+                        "- Ensure IT equipment operates efficiently and reliably",
+                        "4. Data Backup Management",
+                        "- Back up server and client data per organizational policies",
+                        "- Verify and maintain backups for emergency recovery",
+                        "5. User Support",
+                        "- Provide consultation and resolve issues with computers and IT systems",
+                        "- Assist users to enhance work efficiency"
+                    ],
+                    "highlight": "ออกแบบและติดตั้งระบบกล้องวงจรปิด (CCTV) จำนวน 152 ตัว พร้อมวางโครงข่ายระบบสายสัญญาณ Fiber Optic ทั้งหมด เพื่อให้สามารถเชื่อมต่อและควบคุมการทำงานของกล้องได้อย่างมีประสิทธิภาพทั่วพื้นที่ที่รับผิดชอบ"
+                },
+                "en": {
+                    "title": "IT Support",
+                    "org": "Nanmee Industry Co., Ltd.",
+                    "meta": "Mar 2019 – Apr 2020",
+                    "bullets": [
+                        "1. Server and Active Directory Management",
+                        "- Oversee server operations and manage Active Directory",
+                        "- Create/edit/delete user accounts, manage Group Policy, and access rights",
+                        "2. Repair and Troubleshoot IT Equipment",
+                        "- Address issues with Hardware, Software, Network, Email, Internet, and ERP (Oracle)",
+                        "- Perform repairs to ensure smooth system functionality",
+                        "3. Maintenance of Computers and Network Systems",
+                        "- Maintain PCs, Notebooks, network devices, and internet connectivity",
+                        "- Ensure IT equipment operates efficiently and reliably",
+                        "4. Data Backup Management",
+                        "- Back up server and client data per organizational policies",
+                        "- Verify and maintain backups for emergency recovery",
+                        "5. User Support",
+                        "- Provide consultation and resolve issues with computers and IT systems",
+                        "- Assist users to enhance work efficiency"
+                    ],
+                    "highlight": "Designed and installed 152 CCTV cameras along with full Fiber Optic cabling infrastructure to enable efficient connection and centralized control of all cameras across the entire responsible area."
+                },
+                "zh": {
+                    "title": "IT 支持",
+                    "org": "Nanmee Industry 有限公司",
+                    "meta": "2019年3月 – 2020年4月",
+                    "bullets": [
+                        "1. 服务器和 Active Directory 管理",
+                        "- 监督服务器运行并管理 Active Directory",
+                        "- 创建/编辑/删除用户账户,管理组策略和访问权限",
+                        "2. 维修和故障排除 IT 设备",
+                        "- 解决硬件、软件、网络、电子邮件、互联网和 ERP(Oracle)问题",
+                        "- 执行维修以确保系统平稳运行",
+                        "3. 计算机和网络系统维护",
+                        "- 维护 PC、笔记本电脑、网络设备和互联网连接",
+                        "- 确保 IT 设备高效可靠地运行",
+                        "4. 数据备份管理",
+                        "- 按组织政策备份服务器和客户端数据",
+                        "- 验证和维护备份以便紧急恢复",
+                        "5. 用户支持",
+                        "- 提供咨询并解决计算机和 IT 系统问题",
+                        "- 协助用户提高工作效率"
+                    ],
+                    "highlight": "设计并安装了 152 个 CCTV 摄像头,以及完整的光纤布线基础设施,实现整个负责区域内所有摄像头的高效连接和集中控制。"
+                }
+            }
+        },
+        {
+            "id": "exp-5",
+            "translations": {
+                "th": {
+                    "title": "IT Support",
+                    "org": "Ban Leong Chin Inter Co., Ltd.",
+                    "meta": "มี.ค. 2560 – ก.พ. 2562",
+                    "bullets": [
+                        "ดูแล Server, Active Directory และ User Account Lifecycle",
+                        "แก้ปัญหา Hardware, Software, Network, Email และ Oracle ERP",
+                        "บริหารจัดการ Data Backup และ Disaster Recovery"
+                    ],
+                    "highlight": ""
+                },
+                "en": {
+                    "title": "IT Support",
+                    "org": "Ban Leong Chin Inter Co., Ltd.",
+                    "meta": "Mar 2017 – Feb 2019",
+                    "bullets": [
+                        "Managed Server, Active Directory, and User Account Lifecycle",
+                        "Troubleshot Hardware, Software, Network, Email, and Oracle ERP",
+                        "Managed Data Backup and Disaster Recovery"
+                    ],
+                    "highlight": ""
+                },
+                "zh": {
+                    "title": "IT 支持",
+                    "org": "Ban Leong Chin Inter 有限公司",
+                    "meta": "2017年3月 – 2019年2月",
+                    "bullets": [
+                        "管理服务器、Active Directory 和用户账户生命周期",
+                        "排除硬件、软件、网络、电子邮件和 Oracle ERP 故障",
+                        "管理数据备份和灾难恢复"
+                    ],
+                    "highlight": ""
+                }
+            }
         }
-      }
-    },
-    {
-      "id": "exp-3",
-      "translations": {
-        "th": {
-          "title": "IT Support",
-          "org": "Professional Laboratories Management Corp Pub Co., Ltd.",
-          "meta": "พ.ค. 2563 – ต.ค. 2564",
-          "bullets": [
-            "1. Server Management",
-            "- Manage user accounts and logins via Active Directory",
-            "- Configure security policies using Group Policy",
-            "- Administer file sharing and access permissions based on roles",
-            "2. Cloud Systems and Security Management",
-            "- Oversee HIS-LIS SQL SYMPHONY system",
-            "- Manage Nods32 Endpoint Security on cloud for endpoint protection",
-            "- Administer Google G-Suite (user accounts, email, security)",
-            "3. IT Infrastructure Planning and Installation",
-            "- Design and install Server AD, Switch, Fingerscan, CCTV, NAS, and backup systems",
-            "4. System Maintenance and Support",
-            "- Prioritize and track repair requests via an online system",
-            "- Define SLAs, analyze data, and conduct surveys for improvement",
-            "- Train IT team to handle new technologies",
-            "5. Budget Management",
-            "- Prepare budgets for equipment, maintenance, software licenses, subscriptions",
-            "- Coordinate with vendors to compare quotes and select services",
-            "6. Data Security Management",
-            "- Implement security measures to protect data per standards",
-            "7. Team Leadership and Development",
-            "- Assign tasks, monitor performance, and support IT team training"
-          ],
-          "highlight": "ในตำแหน่ง IT Support ที่ Professional Laboratories Management Corp Pub Co., Ltd. ผมได้มีโอกาสรับผิดชอบโปรเจกต์สำคัญในการย้ายระบบ Server ของ Hospital Information System (HIS) จากระบบ On-Premise ขึ้นสู่ Cloud สำเร็จ โดยมีผลงานที่โดดเด่นดังนี้\r\nวางแผนและประสานงานการย้ายข้อมูล HIS ทั้งระบบไปยัง Cloud Infrastructure \r\nดำเนินการสำรองข้อมูล (Backup) และทดสอบการกู้คืนข้อมูล (Restore) เพื่อป้องกันข้อมูลสูญหายระหว่างการย้ายระบบ\r\nปรับแต่งการตั้งค่า Cloud Environment เพื่อให้ระบบ HIS ทำงานได้อย่างมีเสถียรภาพ พร้อมเพิ่มมาตรการความปลอดภัยด้านข้อมูลตามมาตรฐาน HIPAA (หรือมาตรฐานความปลอดภัยข้อมูลสุขภาพ ถ้ามีการอ้างอิง)\r\nลดค่าใช้จ่ายในการดูแลรักษา Server และเพิ่มความยืดหยุ่นในการขยายระบบในอนาคต\r\nโครงการนี้สำเร็จภายในระยะเวลาที่กำหนด พร้อมทำการทดสอบ (UAT) และส่งมอบระบบให้กับฝ่ายผู้ใช้งานได้สำเร็จ"
+    ],
+    "education": [
+        {
+            "id": "edu-1",
+            "translations": {
+                "th": {
+                    "title": "วิทยาศาสตรบัณฑิต สาขาเทคโนโลยีสารสนเทศและการสื่อสาร",
+                    "org": "มหาวิทยาลัยสุโขทัยธรรมาธิราช",
+                    "meta": "คาดว่าจบ 2570 | GPA 3.0"
+                },
+                "en": {
+                    "title": "B.Sc. in Information and Communications Technology",
+                    "org": "Sukhothai Thammathirat Open University",
+                    "meta": "Expected 2027 | GPA 3.0"
+                },
+                "zh": {
+                    "title": "信息与通信技术理学学士",
+                    "org": "素可泰他玛提叻开放大学",
+                    "meta": "预计 2027 年毕业 | GPA 3.0"
+                }
+            }
         },
-        "en": {
-          "title": "IT Support",
-          "org": "Professional Laboratories Management Corp Pub Co., Ltd.",
-          "meta": "May 2020 – Oct 2021",
-          "bullets": [
-            "1. Server Management",
-            "- Manage user accounts and logins via Active Directory",
-            "- Configure security policies using Group Policy",
-            "- Administer file sharing and access permissions based on roles",
-            "2. Cloud Systems and Security Management",
-            "- Oversee HIS-LIS SQL SYMPHONY system",
-            "- Manage Nods32 Endpoint Security on cloud for endpoint protection",
-            "- Administer Google G-Suite (user accounts, email, security)",
-            "3. IT Infrastructure Planning and Installation",
-            "- Design and install Server AD, Switch, Fingerscan, CCTV, NAS, and backup systems",
-            "4. System Maintenance and Support",
-            "- Prioritize and track repair requests via an online system",
-            "- Define SLAs, analyze data, and conduct surveys for improvement",
-            "- Train IT team to handle new technologies",
-            "5. Budget Management",
-            "- Prepare budgets for equipment, maintenance, software licenses, subscriptions",
-            "- Coordinate with vendors to compare quotes and select services",
-            "6. Data Security Management",
-            "- Implement security measures to protect data per standards",
-            "7. Team Leadership and Development",
-            "- Assign tasks, monitor performance, and support IT team training"
-          ],
-          "highlight": "As IT Support at Professional Laboratories Management Corp Pub Co., Ltd., I was responsible for a key project migrating the Hospital Information System (HIS) Server from On-Premise to Cloud successfully, with notable achievements as follows:\n1. Planned and coordinated the migration of the entire HIS system to Cloud Infrastructure\n2. Executed data backup and restore testing to prevent data loss during migration\n3. Configured Cloud Environment settings to ensure stable HIS operation, with enhanced data security per HIPAA standards (or applicable health data security standards)\n4. Reduced server maintenance costs and increased flexibility for future scaling\n5. Project was completed on schedule with successful UAT and handover to end users"
-        },
-        "zh": {
-          "title": "IT 支持",
-          "org": "Professional Laboratories Management Corp 公众有限公司",
-          "meta": "2020年5月 – 2021年10月",
-          "bullets": [
-            "1. 服务器管理",
-            "- 通过 Active Directory 管理用户账户和登录",
-            "- 使用组策略配置安全策略",
-            "- 根据角色管理文件共享和访问权限",
-            "2. 云系统和安全管理",
-            "- 监督 HIS-LIS SQL SYMPHONY 系统",
-            "- 在云端管理 Nods32 端点安全保护",
-            "- 管理 Google G-Suite(用户账户、电子邮件、安全)",
-            "3. IT 基础设施规划和安装",
-            "- 设计和安装 Server AD、交换机、指纹考勤、CCTV、NAS 和备份系统",
-            "4. 系统维护和支持",
-            "- 通过在线系统优先处理和跟踪维修请求",
-            "- 定义 SLA、分析数据并进行改进调查",
-            "- 培训 IT 团队处理新技术",
-            "5. 预算管理",
-            "- 为设备、维护、软件许可证、订阅准备预算",
-            "- 与供应商协调,比较报价并选择服务",
-            "6. 数据安全管理",
-            "- 按标准实施保护数据的安全措施",
-            "7. 团队领导和发展",
-            "- 分配任务、监控绩效并支持 IT 团队培训"
-          ],
-          "highlight": "在 Professional Laboratories Management Corp Pub Co., Ltd. 担任 IT 支持期间,我负责将医院信息系统(HIS)服务器从本地系统成功迁移到云端的关键项目,主要成就如下:\n1. 规划和协调整个 HIS 系统迁移到云基础设施\n2. 执行数据备份和恢复测试,以防止迁移过程中数据丢失\n3. 配置云环境设置以确保 HIS 系统稳定运行,并按 HIPAA 标准(或适用的健康数据安全标准)加强数据安全\n4. 降低服务器维护成本并提高未来扩展的灵活性\n5. 项目按时完成,UAT 测试成功,并成功向最终用户交付"
+        {
+            "id": "edu-2",
+            "translations": {
+                "th": {
+                    "title": "ประกาศนียบัตรวิชาชีพ (ปวช.) สาขาเทคโนโลยีระบบเสียง",
+                    "org": "วิทยาลัยเทคนิคนางรอง",
+                    "meta": "จบ 2545 | GPA 2.25"
+                },
+                "en": {
+                    "title": "Vocational Certificate in Sound Technology",
+                    "org": "Nang Rong Technical College",
+                    "meta": "Graduated 2002 | GPA 2.25"
+                },
+                "zh": {
+                    "title": "音响技术职业证书",
+                    "org": "南荣技术学院",
+                    "meta": "2002年毕业 | GPA 2.25"
+                }
+            }
         }
-      }
-    },
-    {
-      "id": "exp-4",
-      "translations": {
-        "th": {
-          "title": "IT Support",
-          "org": "Nanmee Industry Co., Ltd.",
-          "meta": "มี.ค. 2562 – เม.ย. 2563",
-          "bullets": [
-            "1. Server and Active Directory Management",
-            "- Oversee server operations and manage Active Directory",
-            "- Create/edit/delete user accounts, manage Group Policy, and access rights",
-            "2. Repair and Troubleshoot IT Equipment",
-            "- Address issues with Hardware, Software, Network, Email, Internet, and ERP (Oracle)",
-            "- Perform repairs to ensure smooth system functionality",
-            "3. Maintenance of Computers and Network Systems",
-            "- Maintain PCs, Notebooks, network devices, and internet connectivity",
-            "- Ensure IT equipment operates efficiently and reliably",
-            "4. Data Backup Management",
-            "- Back up server and client data per organizational policies",
-            "- Verify and maintain backups for emergency recovery",
-            "5. User Support",
-            "- Provide consultation and resolve issues with computers and IT systems",
-            "- Assist users to enhance work efficiency"
-          ],
-          "highlight": "ออกแบบและติดตั้งระบบกล้องวงจรปิด (CCTV) จำนวน 152 ตัว พร้อมวางโครงข่ายระบบสายสัญญาณ Fiber Optic ทั้งหมด เพื่อให้สามารถเชื่อมต่อและควบคุมการทำงานของกล้องได้อย่างมีประสิทธิภาพทั่วพื้นที่ที่รับผิดชอบ"
+    ],
+    "skills": [
+        {
+            "id": "sk-1",
+            "tags": [
+                "Cisco",
+                "Fortigate 100F",
+                "Sophos",
+                "Zyxel",
+                "TP-Link Omada",
+                "Mikrotik"
+            ],
+            "translations": {
+                "th": {
+                    "label": "Network"
+                },
+                "en": {
+                    "label": "Network"
+                },
+                "zh": {
+                    "label": "网络"
+                }
+            }
         },
-        "en": {
-          "title": "IT Support",
-          "org": "Nanmee Industry Co., Ltd.",
-          "meta": "Mar 2019 – Apr 2020",
-          "bullets": [
-            "1. Server and Active Directory Management",
-            "- Oversee server operations and manage Active Directory",
-            "- Create/edit/delete user accounts, manage Group Policy, and access rights",
-            "2. Repair and Troubleshoot IT Equipment",
-            "- Address issues with Hardware, Software, Network, Email, Internet, and ERP (Oracle)",
-            "- Perform repairs to ensure smooth system functionality",
-            "3. Maintenance of Computers and Network Systems",
-            "- Maintain PCs, Notebooks, network devices, and internet connectivity",
-            "- Ensure IT equipment operates efficiently and reliably",
-            "4. Data Backup Management",
-            "- Back up server and client data per organizational policies",
-            "- Verify and maintain backups for emergency recovery",
-            "5. User Support",
-            "- Provide consultation and resolve issues with computers and IT systems",
-            "- Assist users to enhance work efficiency"
-          ],
-          "highlight": "Designed and installed 152 CCTV cameras along with full Fiber Optic cabling infrastructure to enable efficient connection and centralized control of all cameras across the entire responsible area."
+        {
+            "id": "sk-2",
+            "tags": [
+                "Windows Server",
+                "Active Directory",
+                "GPO",
+                "VMware",
+                "Hyper-V",
+                "Proxmox",
+                "Nutanix"
+            ],
+            "translations": {
+                "th": {
+                    "label": "Server / OS"
+                },
+                "en": {
+                    "label": "Server / OS"
+                },
+                "zh": {
+                    "label": "服务器/操作系统"
+                }
+            }
         },
-        "zh": {
-          "title": "IT 支持",
-          "org": "Nanmee Industry 有限公司",
-          "meta": "2019年3月 – 2020年4月",
-          "bullets": [
-            "1. 服务器和 Active Directory 管理",
-            "- 监督服务器运行并管理 Active Directory",
-            "- 创建/编辑/删除用户账户,管理组策略和访问权限",
-            "2. 维修和故障排除 IT 设备",
-            "- 解决硬件、软件、网络、电子邮件、互联网和 ERP(Oracle)问题",
-            "- 执行维修以确保系统平稳运行",
-            "3. 计算机和网络系统维护",
-            "- 维护 PC、笔记本电脑、网络设备和互联网连接",
-            "- 确保 IT 设备高效可靠地运行",
-            "4. 数据备份管理",
-            "- 按组织政策备份服务器和客户端数据",
-            "- 验证和维护备份以便紧急恢复",
-            "5. 用户支持",
-            "- 提供咨询并解决计算机和 IT 系统问题",
-            "- 协助用户提高工作效率"
-          ],
-          "highlight": "设计并安装了 152 个 CCTV 摄像头,以及完整的光纤布线基础设施,实现整个负责区域内所有摄像头的高效连接和集中控制。"
+        {
+            "id": "sk-3",
+            "tags": [
+                "Firewall Policy",
+                "VPN",
+                "MFA",
+                "IPS/IDS",
+                "ESET",
+                "Web Filtering"
+            ],
+            "translations": {
+                "th": {
+                    "label": "Security"
+                },
+                "en": {
+                    "label": "Security"
+                },
+                "zh": {
+                    "label": "安全"
+                }
+            }
+        },
+        {
+            "id": "sk-4",
+            "tags": [
+                "Microsoft 365",
+                "Exchange",
+                "Teams",
+                "Google Workspace"
+            ],
+            "translations": {
+                "th": {
+                    "label": "Cloud / SaaS"
+                },
+                "en": {
+                    "label": "Cloud / SaaS"
+                },
+                "zh": {
+                    "label": "云/SaaS"
+                }
+            }
+        },
+        {
+            "id": "sk-5",
+            "tags": [
+                "Mango ERP",
+                "Oracle ERP",
+                "SQL Server",
+                "Sybase"
+            ],
+            "translations": {
+                "th": {
+                    "label": "ERP / Database"
+                },
+                "en": {
+                    "label": "ERP / Database"
+                },
+                "zh": {
+                    "label": "ERP/数据库"
+                }
+            }
+        },
+        {
+            "id": "sk-6",
+            "tags": [
+                "SQL",
+                "PHP",
+                "JavaScript",
+                "CSS",
+                "Python",
+                "HTML5",
+                "Google Apps Script"
+            ],
+            "translations": {
+                "th": {
+                    "label": "ภาษาโปรแกรม"
+                },
+                "en": {
+                    "label": "Programming"
+                },
+                "zh": {
+                    "label": "编程语言"
+                }
+            }
+        },
+        {
+            "id": "sk-7",
+            "tags": [
+                "Veeam",
+                "Synology NAS",
+                "Shadow Copy"
+            ],
+            "translations": {
+                "th": {
+                    "label": "Backup"
+                },
+                "en": {
+                    "label": "Backup"
+                },
+                "zh": {
+                    "label": "备份"
+                }
+            }
+        },
+        {
+            "id": "sk-8",
+            "tags": [
+                "ไทย (Native)",
+                "อังกฤษ (เริ่มต้น)"
+            ],
+            "translations": {
+                "th": {
+                    "label": "ภาษาพูด"
+                },
+                "en": {
+                    "label": "Spoken"
+                },
+                "zh": {
+                    "label": "语言"
+                }
+            }
         }
-      }
-    },
-    {
-      "id": "exp-5",
-      "translations": {
-        "th": {
-          "title": "IT Support",
-          "org": "Ban Leong Chin Inter Co., Ltd.",
-          "meta": "มี.ค. 2560 – ก.พ. 2562",
-          "bullets": [
-            "ดูแล Server, Active Directory และ User Account Lifecycle",
-            "แก้ปัญหา Hardware, Software, Network, Email และ Oracle ERP",
-            "บริหารจัดการ Data Backup และ Disaster Recovery"
-          ],
-          "highlight": ""
+    ],
+    "certs": [
+        {
+            "id": "cert-1",
+            "translations": {
+                "th": {
+                    "name": "CCNA — Cisco Certified Network Associate",
+                    "org": "Jodoi IT & Service (2565)"
+                },
+                "en": {
+                    "name": "CCNA — Cisco Certified Network Associate",
+                    "org": "Jodoi IT & Service (2022)"
+                },
+                "zh": {
+                    "name": "CCNA — 思科认证网络工程师",
+                    "org": "Jodoi IT & Service (2022)"
+                }
+            },
+            "file": "certs/CCNA_ea2808.jpg"
         },
-        "en": {
-          "title": "IT Support",
-          "org": "Ban Leong Chin Inter Co., Ltd.",
-          "meta": "Mar 2017 – Feb 2019",
-          "bullets": [
-            "Managed Server, Active Directory, and User Account Lifecycle",
-            "Troubleshot Hardware, Software, Network, Email, and Oracle ERP",
-            "Managed Data Backup and Disaster Recovery"
-          ],
-          "highlight": ""
+        {
+            "id": "cert-2",
+            "translations": {
+                "th": {
+                    "name": "NSE 3 Network Security Associate",
+                    "org": "Fortinet (2566)"
+                },
+                "en": {
+                    "name": "NSE 3 Network Security Associate",
+                    "org": "Fortinet (2023)"
+                },
+                "zh": {
+                    "name": "NSE 3 网络安全工程师",
+                    "org": "Fortinet (2023)"
+                }
+            },
+            "file": "certs/NSE_3_98b8ac.jpg"
         },
-        "zh": {
-          "title": "IT 支持",
-          "org": "Ban Leong Chin Inter 有限公司",
-          "meta": "2017年3月 – 2019年2月",
-          "bullets": [
-            "管理服务器、Active Directory 和用户账户生命周期",
-            "排除硬件、软件、网络、电子邮件和 Oracle ERP 故障",
-            "管理数据备份和灾难恢复"
-          ],
-          "highlight": ""
+        {
+            "id": "cert-3",
+            "translations": {
+                "th": {
+                    "name": "NSE 2 Network Security Associate",
+                    "org": "Fortinet (2565)"
+                },
+                "en": {
+                    "name": "NSE 2 Network Security Associate",
+                    "org": "Fortinet (2022)"
+                },
+                "zh": {
+                    "name": "NSE 2 网络安全工程师",
+                    "org": "Fortinet (2022)"
+                }
+            },
+            "file": "certs/NSE_2_3b085b.jpg"
+        },
+        {
+            "id": "cert-4",
+            "translations": {
+                "th": {
+                    "name": "NSE 1 Network Security Associate",
+                    "org": "Fortinet (2565)"
+                },
+                "en": {
+                    "name": "NSE 1 Network Security Associate",
+                    "org": "Fortinet (2022)"
+                },
+                "zh": {
+                    "name": "NSE 1 网络安全工程师",
+                    "org": "Fortinet (2022)"
+                }
+            },
+            "file": "certs/NSE_1_ca066a.jpg"
+        },
+        {
+            "id": "cert-5",
+            "translations": {
+                "th": {
+                    "name": "Configuring Windows Server 2019 AD",
+                    "org": "elife systems (2563)"
+                },
+                "en": {
+                    "name": "Configuring Windows Server 2019 AD",
+                    "org": "elife systems (2020)"
+                },
+                "zh": {
+                    "name": "配置 Windows Server 2019 AD",
+                    "org": "elife systems (2020)"
+                }
+            },
+            "file": "certs/AD001_Configuring_and_Troubleshooting_-_Windows_Server_2019_Active_Directory_Domain_Services_e0d0c5.jpg"
+        },
+        {
+            "id": "cert-6",
+            "translations": {
+                "th": {
+                    "name": "Fix and Advance Troubleshooting Windows Server AD",
+                    "org": "elife systems (2564)"
+                },
+                "en": {
+                    "name": "Advanced Troubleshooting Windows Server AD",
+                    "org": "elife systems (2021)"
+                },
+                "zh": {
+                    "name": "Windows Server AD 高级故障排除",
+                    "org": "elife systems (2021)"
+                }
+            },
+            "file": "certs/AD002_Fix_and_Advance_Troubleshooting_Windows_Server_AD_a42922.jpg"
+        },
+        {
+            "id": "cert-7",
+            "translations": {
+                "th": {
+                    "name": "Essential SQL For Everyone",
+                    "org": "BORNTODEV (2569)"
+                },
+                "en": {
+                    "name": "Essential SQL For Everyone",
+                    "org": "BORNTODEV (2026)"
+                },
+                "zh": {
+                    "name": "人人都懂 SQL",
+                    "org": "BORNTODEV (2026)"
+                }
+            },
+            "file": "certs/SQL_85028e.jpg"
+        },
+        {
+            "id": "cert-8",
+            "translations": {
+                "th": {
+                    "name": "Python",
+                    "org": "Cisco Networking Academy (2569)"
+                },
+                "en": {
+                    "name": "Python",
+                    "org": "Cisco Networking Academy (2026)"
+                },
+                "zh": {
+                    "name": "Python",
+                    "org": "思科网络学院 (2026)"
+                }
+            },
+            "file": "certs/Python2_749f22.jpg"
         }
-      }
-    }
-  ],
-  "education": [
-    {
-      "id": "edu-1",
-      "translations": {
-        "th": {
-          "title": "วิทยาศาสตรบัณฑิต สาขาเทคโนโลยีสารสนเทศและการสื่อสาร",
-          "org": "มหาวิทยาลัยสุโขทัยธรรมาธิราช",
-          "meta": "คาดว่าจบ 2570 | GPA 3.0"
-        },
-        "en": {
-          "title": "B.Sc. in Information and Communications Technology",
-          "org": "Sukhothai Thammathirat Open University",
-          "meta": "Expected 2027 | GPA 3.0"
-        },
-        "zh": {
-          "title": "信息与通信技术理学学士",
-          "org": "素可泰他玛提叻开放大学",
-          "meta": "预计 2027 年毕业 | GPA 3.0"
-        }
-      }
-    },
-    {
-      "id": "edu-2",
-      "translations": {
-        "th": {
-          "title": "ประกาศนียบัตรวิชาชีพ (ปวช.) สาขาเทคโนโลยีระบบเสียง",
-          "org": "วิทยาลัยเทคนิคนางรอง",
-          "meta": "จบ 2545 | GPA 2.25"
-        },
-        "en": {
-          "title": "Vocational Certificate in Sound Technology",
-          "org": "Nang Rong Technical College",
-          "meta": "Graduated 2002 | GPA 2.25"
-        },
-        "zh": {
-          "title": "音响技术职业证书",
-          "org": "南荣技术学院",
-          "meta": "2002年毕业 | GPA 2.25"
-        }
-      }
-    }
-  ],
-  "skills": [
-    {
-      "id": "sk-1",
-      "tags": [
-        "Cisco",
-        "Fortigate 100F",
-        "Sophos",
-        "Zyxel",
-        "TP-Link Omada",
-        "Mikrotik"
-      ],
-      "translations": {
-        "th": {
-          "label": "Network"
-        },
-        "en": {
-          "label": "Network"
-        },
-        "zh": {
-          "label": "网络"
-        }
-      }
-    },
-    {
-      "id": "sk-2",
-      "tags": [
-        "Windows Server",
-        "Active Directory",
-        "GPO",
-        "VMware",
-        "Hyper-V",
-        "Proxmox",
-        "Nutanix"
-      ],
-      "translations": {
-        "th": {
-          "label": "Server / OS"
-        },
-        "en": {
-          "label": "Server / OS"
-        },
-        "zh": {
-          "label": "服务器/操作系统"
-        }
-      }
-    },
-    {
-      "id": "sk-3",
-      "tags": [
-        "Firewall Policy",
-        "VPN",
-        "MFA",
-        "IPS/IDS",
-        "ESET",
-        "Web Filtering"
-      ],
-      "translations": {
-        "th": {
-          "label": "Security"
-        },
-        "en": {
-          "label": "Security"
-        },
-        "zh": {
-          "label": "安全"
-        }
-      }
-    },
-    {
-      "id": "sk-4",
-      "tags": [
-        "Microsoft 365",
-        "Exchange",
-        "Teams",
-        "Google Workspace"
-      ],
-      "translations": {
-        "th": {
-          "label": "Cloud / SaaS"
-        },
-        "en": {
-          "label": "Cloud / SaaS"
-        },
-        "zh": {
-          "label": "云/SaaS"
-        }
-      }
-    },
-    {
-      "id": "sk-5",
-      "tags": [
-        "Mango ERP",
-        "Oracle ERP",
-        "SQL Server",
-        "Sybase"
-      ],
-      "translations": {
-        "th": {
-          "label": "ERP / Database"
-        },
-        "en": {
-          "label": "ERP / Database"
-        },
-        "zh": {
-          "label": "ERP/数据库"
-        }
-      }
-    },
-    {
-      "id": "sk-6",
-      "tags": [
-        "SQL",
-        "PHP",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "HTML5",
-        "Google Apps Script"
-      ],
-      "translations": {
-        "th": {
-          "label": "ภาษาโปรแกรม"
-        },
-        "en": {
-          "label": "Programming"
-        },
-        "zh": {
-          "label": "编程语言"
-        }
-      }
-    },
-    {
-      "id": "sk-7",
-      "tags": [
-        "Veeam",
-        "Synology NAS",
-        "Shadow Copy"
-      ],
-      "translations": {
-        "th": {
-          "label": "Backup"
-        },
-        "en": {
-          "label": "Backup"
-        },
-        "zh": {
-          "label": "备份"
-        }
-      }
-    },
-    {
-      "id": "sk-8",
-      "tags": [
-        "ไทย (Native)",
-        "อังกฤษ (เริ่มต้น)"
-      ],
-      "translations": {
-        "th": {
-          "label": "ภาษาพูด"
-        },
-        "en": {
-          "label": "Spoken"
-        },
-        "zh": {
-          "label": "语言"
-        }
-      }
-    }
-  ],
-  "certs": [
-    {
-      "id": "cert-1",
-      "translations": {
-        "th": {
-          "name": "CCNA — Cisco Certified Network Associate",
-          "org": "Jodoi IT & Service (2565)"
-        },
-        "en": {
-          "name": "CCNA — Cisco Certified Network Associate",
-          "org": "Jodoi IT & Service (2022)"
-        },
-        "zh": {
-          "name": "CCNA — 思科认证网络工程师",
-          "org": "Jodoi IT & Service (2022)"
-        }
-      },
-      "file": "certs/CCNA_ea2808.jpg"
-    },
-    {
-      "id": "cert-2",
-      "translations": {
-        "th": {
-          "name": "NSE 3 Network Security Associate",
-          "org": "Fortinet (2566)"
-        },
-        "en": {
-          "name": "NSE 3 Network Security Associate",
-          "org": "Fortinet (2023)"
-        },
-        "zh": {
-          "name": "NSE 3 网络安全工程师",
-          "org": "Fortinet (2023)"
-        }
-      },
-      "file": "certs/NSE_3_98b8ac.jpg"
-    },
-    {
-      "id": "cert-3",
-      "translations": {
-        "th": {
-          "name": "NSE 2 Network Security Associate",
-          "org": "Fortinet (2565)"
-        },
-        "en": {
-          "name": "NSE 2 Network Security Associate",
-          "org": "Fortinet (2022)"
-        },
-        "zh": {
-          "name": "NSE 2 网络安全工程师",
-          "org": "Fortinet (2022)"
-        }
-      },
-      "file": "certs/NSE_2_3b085b.jpg"
-    },
-    {
-      "id": "cert-4",
-      "translations": {
-        "th": {
-          "name": "NSE 1 Network Security Associate",
-          "org": "Fortinet (2565)"
-        },
-        "en": {
-          "name": "NSE 1 Network Security Associate",
-          "org": "Fortinet (2022)"
-        },
-        "zh": {
-          "name": "NSE 1 网络安全工程师",
-          "org": "Fortinet (2022)"
-        }
-      },
-      "file": "certs/NSE_1_ca066a.jpg"
-    },
-    {
-      "id": "cert-5",
-      "translations": {
-        "th": {
-          "name": "Configuring Windows Server 2019 AD",
-          "org": "elife systems (2563)"
-        },
-        "en": {
-          "name": "Configuring Windows Server 2019 AD",
-          "org": "elife systems (2020)"
-        },
-        "zh": {
-          "name": "配置 Windows Server 2019 AD",
-          "org": "elife systems (2020)"
-        }
-      },
-      "file": "certs/AD001_Configuring_and_Troubleshooting_-_Windows_Server_2019_Active_Directory_Domain_Services_e0d0c5.jpg"
-    },
-    {
-      "id": "cert-6",
-      "translations": {
-        "th": {
-          "name": "Fix and Advance Troubleshooting Windows Server AD",
-          "org": "elife systems (2564)"
-        },
-        "en": {
-          "name": "Advanced Troubleshooting Windows Server AD",
-          "org": "elife systems (2021)"
-        },
-        "zh": {
-          "name": "Windows Server AD 高级故障排除",
-          "org": "elife systems (2021)"
-        }
-      },
-      "file": "certs/AD002_Fix_and_Advance_Troubleshooting_Windows_Server_AD_a42922.jpg"
-    },
-    {
-      "id": "cert-7",
-      "translations": {
-        "th": {
-          "name": "Essential SQL For Everyone",
-          "org": "BORNTODEV (2569)"
-        },
-        "en": {
-          "name": "Essential SQL For Everyone",
-          "org": "BORNTODEV (2026)"
-        },
-        "zh": {
-          "name": "人人都懂 SQL",
-          "org": "BORNTODEV (2026)"
-        }
-      },
-      "file": "certs/SQL_85028e.jpg"
-    },
-    {
-      "id": "cert-8",
-      "translations": {
-        "th": {
-          "name": "Python",
-          "org": "Cisco Networking Academy (2569)"
-        },
-        "en": {
-          "name": "Python",
-          "org": "Cisco Networking Academy (2026)"
-        },
-        "zh": {
-          "name": "Python",
-          "org": "思科网络学院 (2026)"
-        }
-      },
-      "file": "certs/Python2_749f22.jpg"
-    }
-  ]
+    ]
 }
