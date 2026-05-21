@@ -98,6 +98,17 @@ if ($data === null) {
         <div class="card-title">👤 ข้อมูลส่วนตัว</div>
         <button class="btn btn-sm" onclick="openPersonalModal()">✏️ แก้ไข</button>
       </div>
+      <div class="row">
+        <div class="row-label">รูปโปรไฟล์</div>
+        <div class="row-val">
+          <?php $photo = $data['personal']['photo'] ?? ''; ?>
+          <?php if ($photo): ?>
+            <img src="../<?= htmlspecialchars($photo) ?>" style="width:80px;height:80px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid #e5e7eb;" />
+          <?php else: ?>
+            <span style="color:var(--muted);font-size:13px;">— ยังไม่ได้อัปโหลด —</span>
+          <?php endif; ?>
+        </div>
+      </div>
       <div class="row"><div class="row-label">Email</div><div class="row-val"><?= htmlspecialchars($data['personal']['email']) ?></div></div>
       <div class="row"><div class="row-label">Phone</div><div class="row-val"><?= htmlspecialchars($data['personal']['phone']) ?></div></div>
       <?php foreach (['th'=>'ไทย','en'=>'EN','zh'=>'中文'] as $code => $name): ?>
@@ -277,8 +288,28 @@ function findItem(arr, id) { return arr.find(x => x.id === id); }
 function openPersonalModal() {
   const p = DATA.personal;
   openModal('แก้ไขข้อมูลส่วนตัว');
+  const photoSrc = p.photo ? '../' + p.photo : '';
   const body = `
     <div id="form-personal">
+      <!-- Photo Upload Section -->
+      <div class="field" style="text-align:center;padding:16px;background:#f9fafb;border-radius:10px;margin-bottom:18px;">
+        <div id="photo-preview-wrap" style="margin-bottom:12px;">
+          ${photoSrc
+            ? `<img id="photo-preview" src="${photoSrc}" style="width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:center top;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.1);" />`
+            : `<div id="photo-preview" style="width:120px;height:120px;border-radius:50%;background:#e5e7eb;display:inline-flex;align-items:center;justify-content:center;font-size:48px;color:#9ca3af;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.05);">👤</div>`
+          }
+        </div>
+        <div style="display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;">
+          <label class="btn btn-sm" style="cursor:pointer;">
+            📷 ${p.photo ? 'เปลี่ยนรูป' : 'อัปโหลดรูป'}
+            <input type="file" id="photo-input" accept="image/jpeg,image/png,image/webp" style="display:none;" onchange="previewSelectedPhoto(this)" />
+          </label>
+          ${p.photo ? `<button type="button" class="btn btn-sm btn-danger" onclick="markPhotoForRemoval()">🗑️ ลบรูป</button>` : ''}
+        </div>
+        <input type="hidden" id="remove-photo" value="0" />
+        <div id="photo-filename" style="font-size:11px;color:var(--muted);margin-top:6px;"></div>
+      </div>
+
       <div class="grid-2">
         <div class="field"><label>Email</label><input type="email" name="email" value="${escapeAttr(p.email)}" /></div>
         <div class="field"><label>Phone</label><input type="text" name="phone" value="${escapeAttr(p.phone)}" /></div>
@@ -310,10 +341,46 @@ function openPersonalModal() {
         fd.append(`translations[${code}][${k}]`, form.querySelector(`[name="tr[${code}][${k}]"]`).value);
       });
     });
+    // Photo
+    const photoInput = document.getElementById('photo-input');
+    if (photoInput && photoInput.files && photoInput.files[0]) {
+      fd.append('photo', photoInput.files[0]);
+    }
+    const removeFlag = document.getElementById('remove-photo');
+    if (removeFlag) fd.append('remove_photo', removeFlag.value);
+
     const r = await fetch('api.php', { method:'POST', body: fd }).then(r => r.json());
     if (r.ok) { toast('บันทึกเรียบร้อย ✓'); setTimeout(() => location.reload(), 600); }
     else toast(r.error || 'เกิดข้อผิดพลาด', true);
   };
+}
+
+function previewSelectedPhoto(input) {
+  if (!input.files || !input.files[0]) return;
+  const f = input.files[0];
+  // 5MB limit
+  if (f.size > 5 * 1024 * 1024) {
+    toast('ไฟล์ใหญ่เกิน 5MB', true);
+    input.value = '';
+    return;
+  }
+  const url = URL.createObjectURL(f);
+  document.getElementById('photo-preview-wrap').innerHTML =
+    `<img id="photo-preview" src="${url}" style="width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:center top;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.1);" />`;
+  document.getElementById('photo-filename').textContent = '📂 ' + f.name;
+  // If user picks new photo, clear the "remove" flag
+  document.getElementById('remove-photo').value = '0';
+}
+
+function markPhotoForRemoval() {
+  if (!confirm('ลบรูปโปรไฟล์เมื่อบันทึก?')) return;
+  document.getElementById('remove-photo').value = '1';
+  document.getElementById('photo-preview-wrap').innerHTML =
+    `<div style="width:120px;height:120px;border-radius:50%;background:#fee2e2;display:inline-flex;align-items:center;justify-content:center;font-size:48px;color:#dc2626;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.05);">🗑️</div>`;
+  document.getElementById('photo-filename').textContent = 'รูปจะถูกลบเมื่อบันทึก';
+  // Clear file input too
+  const input = document.getElementById('photo-input');
+  if (input) input.value = '';
 }
 
 // ===================== Experience =====================

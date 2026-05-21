@@ -46,6 +46,12 @@ function certs_dir() {
     return $d;
 }
 
+function photos_dir() {
+    $d = __DIR__ . '/../photos';
+    if (!is_dir($d)) @mkdir($d, 0775, true);
+    return $d;
+}
+
 function load_data() {
     $path = data_file_path();
     if (!file_exists($path)) {
@@ -59,10 +65,19 @@ function save_data($data) {
     $path = data_file_path();
     $data['meta']['lastUpdated'] = date('Y-m-d H:i:s');
     $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-    return file_put_contents($path, $json) !== false;
+    $bytes = @file_put_contents($path, $json);
+    if ($bytes === false) {
+        // Could not write — likely a permission issue (file owned by root)
+        json_response([
+            'error' => 'เขียน resume-data.json ไม่สำเร็จ (Permission denied) — รัน: docker exec resume chown www-data:www-data /var/www/html/resume-data.json'
+        ], 500);
+    }
+    return true;
 }
 
 function json_response($data, $status = 200) {
+    // Discard any buffered output (PHP warnings/notices that may have leaked)
+    while (ob_get_level() > 0) { @ob_end_clean(); }
     http_response_code($status);
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode($data, JSON_UNESCAPED_UNICODE);

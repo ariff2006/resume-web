@@ -1,4 +1,9 @@
 <?php
+// Buffer output so any PHP warning/notice doesn't corrupt our JSON response.
+ob_start();
+ini_set('display_errors', '0');
+error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED);
+
 require_once '_auth.php';
 
 if (!is_logged_in()) {
@@ -27,6 +32,35 @@ switch ($action) {
         $phone = trim($_POST['phone'] ?? '');
         $tr = $_POST['translations'] ?? [];
         if (!is_array($tr)) { json_response(['error' => 'bad translations'], 400); }
+
+        // === Handle profile photo upload (optional) ===
+        if (isset($_FILES['photo']) && $_FILES['photo']['error'] === UPLOAD_ERR_OK) {
+            $tmp = $_FILES['photo']['tmp_name'];
+            $origName = $_FILES['photo']['name'];
+            $ext = strtolower(pathinfo($origName, PATHINFO_EXTENSION));
+            $allowed = ['jpg','jpeg','png','webp'];
+            if (!in_array($ext, $allowed, true)) {
+                json_response(['error' => 'รูปต้องเป็น jpg, png, หรือ webp เท่านั้น'], 400);
+            }
+            $finalName = 'avatar_' . substr(md5(uniqid('', true)), 0, 8) . '.' . $ext;
+            $destPath = photos_dir() . '/' . $finalName;
+            if (!move_uploaded_file($tmp, $destPath)) {
+                json_response(['error' => 'อัปโหลดรูปไม่สำเร็จ (permission)'], 500);
+            }
+            @chmod($destPath, 0644);
+            // Delete old photo if exists
+            $oldPhoto = $data['personal']['photo'] ?? '';
+            if ($oldPhoto) @unlink(__DIR__ . '/../' . $oldPhoto);
+            $data['personal']['photo'] = 'photos/' . $finalName;
+        }
+
+        // === Handle photo removal ===
+        if (($_POST['remove_photo'] ?? '') === '1') {
+            $oldPhoto = $data['personal']['photo'] ?? '';
+            if ($oldPhoto) @unlink(__DIR__ . '/../' . $oldPhoto);
+            unset($data['personal']['photo']);
+        }
+
         $data['personal']['email'] = $email;
         $data['personal']['phone'] = $phone;
         foreach (['th','en','zh'] as $lang) {
@@ -41,7 +75,7 @@ switch ($action) {
             }
         }
         save_data($data);
-        json_response(['ok' => true]);
+        json_response(['ok' => true, 'photo' => $data['personal']['photo'] ?? null]);
     }
 
     case 'save_labels': {
@@ -67,7 +101,6 @@ switch ($action) {
         $clean = [];
         foreach (['th','en','zh'] as $lang) {
             $b = $tr[$lang]['bullets'] ?? '';
-            // bullets come as newline-separated text; split into array
             if (is_string($b)) {
                 $bullets = array_values(array_filter(array_map('trim', explode("\n", $b)), fn($x) => $x !== ''));
             } elseif (is_array($b)) {
@@ -211,7 +244,6 @@ switch ($action) {
             if (!in_array($ext, $allowed, true)) {
                 json_response(['error' => 'ไฟล์ต้องเป็น jpg, png, pdf, webp เท่านั้น'], 400);
             }
-            // Sanitize filename: keep original name (without ext) but slug it
             $base = preg_replace('/[^A-Za-z0-9_-]+/', '_', pathinfo($origName, PATHINFO_FILENAME));
             $base = trim($base, '_') ?: 'cert';
             $finalName = $base . '_' . substr(md5(uniqid('', true)), 0, 6) . '.' . $ext;
@@ -223,7 +255,6 @@ switch ($action) {
             $uploadedFile = 'certs/' . $finalName;
         }
 
-        // Keep existing file if no new file uploaded
         $keepFile = trim($_POST['keep_file'] ?? '');
 
         if ($id === '' || $id === 'new') {
@@ -238,19 +269,16 @@ switch ($action) {
             $data['certs'][$idx]['translations'] = $clean;
 
             if ($uploadedFile) {
-                // Delete old file if exists and different
                 $old = $data['certs'][$idx]['file'] ?? '';
                 if ($old && $old !== $uploadedFile) {
                     @unlink(__DIR__ . '/../' . $old);
                 }
                 $data['certs'][$idx]['file'] = $uploadedFile;
             } elseif ($keepFile === '') {
-                // Explicit clear (user clicked "ลบไฟล์")
                 $old = $data['certs'][$idx]['file'] ?? '';
                 if ($old) @unlink(__DIR__ . '/../' . $old);
                 unset($data['certs'][$idx]['file']);
             }
-            // Otherwise: keep existing
             save_data($data);
             json_response(['ok' => true, 'file' => $data['certs'][$idx]['file'] ?? null]);
         }
@@ -260,7 +288,6 @@ switch ($action) {
         $id = $_POST['id'] ?? '';
         $idx = find_idx($data['certs'], $id);
         if ($idx === -1) { json_response(['error' => 'not found'], 404); }
-        // Delete associated file
         $f = $data['certs'][$idx]['file'] ?? '';
         if ($f) @unlink(__DIR__ . '/../' . $f);
         array_splice($data['certs'], $idx, 1);
