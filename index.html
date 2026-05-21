@@ -297,7 +297,7 @@
 <body>
   <div class="container">
     <div class="top-bar">
-      <a href="admin/" class="admin-link"><i class="fa-solid fa-gear"></i> Admin</a>
+      <a href="admin/" class="admin-link" id="adminLink" style="display:none;"><i class="fa-solid fa-gear"></i> Admin</a>
       <div class="lang-switcher" role="group">
         <button class="lang-btn active" data-lang="th">ไทย</button>
         <button class="lang-btn" data-lang="en">EN</button>
@@ -525,6 +525,12 @@
       try { const saved = localStorage.getItem('resume-lang'); if (saved && DATA.labels[saved]) initLang = saved; } catch (e) {}
       document.querySelectorAll('.lang-btn').forEach(btn => btn.addEventListener('click', () => applyLang(btn.dataset.lang)));
       applyLang(initLang);
+    // Show admin link only when on localhost (Docker)
+    if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+      const adminLink = document.getElementById('adminLink');
+      if (adminLink) adminLink.style.display = 'inline-flex';
+    }
+
     })();
   </script>
 </body>
